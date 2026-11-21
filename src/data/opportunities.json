@@ -1,0 +1,1468 @@
+[
+ {
+  "id": "op_001",
+  "branch": "diseno",
+  "specialty": "Diseño gráfico",
+  "title": "Diseños y videos para la cafetería",
+  "company_id": "u_c01",
+  "budget_cents": 65000,
+  "days": 15,
+  "modality": "Mixta",
+  "deliverables": [
+   "8 diseños",
+   "4 videos"
+  ],
+  "skills": [
+   "Diseño para redes",
+   "Edición de video corto"
+  ],
+  "description": "Piezas para Instagram y Facebook con la carta de temporada y videos cortos del local.",
+  "posted": "2026-11-10",
+  "deadline": "2026-12-01",
+  "status": "abierta"
+ },
+ {
+  "id": "op_002",
+  "branch": "diseno",
+  "specialty": "Diseño gráfico",
+  "title": "Cinco diseños para promociones",
+  "company_id": "u_c02",
+  "budget_cents": 50000,
+  "days": 5,
+  "modality": "Remoto",
+  "deliverables": [
+   "5 diseños"
+  ],
+  "skills": [
+   "Diseño para redes"
+  ],
+  "description": "Diseños para las promociones de fin de año con textos y fotos que entrega la tienda.",
+  "posted": "2026-11-17",
+  "deadline": "2026-12-10",
+  "status": "abierta"
+ },
+ {
+  "id": "op_003",
+  "branch": "diseno",
+  "specialty": "Video corto",
+  "title": "Video de lanzamiento de nueva línea",
+  "company_id": "u_c02",
+  "budget_cents": 30000,
+  "days": 7,
+  "modality": "Mixta",
+  "deliverables": [
+   "1 video de 30 s"
+  ],
+  "skills": [
+   "Edición de video corto"
+  ],
+  "description": "Video vertical de 30 segundos para mostrar la nueva línea de ropa.",
+  "posted": "2026-11-06",
+  "deadline": "2026-11-26",
+  "status": "abierta"
+ },
+ {
+  "id": "op_004",
+  "branch": "diseno",
+  "specialty": "Fotografía de producto",
+  "title": "Fotos de producto para catálogo",
+  "company_id": "u_c16",
+  "budget_cents": 90000,
+  "days": 10,
+  "modality": "Presencial",
+  "deliverables": [
+   "40 fotos editadas"
+  ],
+  "skills": [
+   "Fotografía de producto",
+   "Edición de fotos"
+  ],
+  "description": "Fotos con fondo blanco de 40 productos para el catálogo digital.",
+  "posted": "2026-11-13",
+  "deadline": "2026-12-02",
+  "status": "abierta"
+ },
+ {
+  "id": "op_005",
+  "branch": "diseno",
+  "specialty": "Diseño gráfico",
+  "title": "Etiquetas para cerveza artesanal",
+  "company_id": "u_c13",
+  "budget_cents": 120000,
+  "days": 12,
+  "modality": "Remoto",
+  "deliverables": [
+   "3 etiquetas"
+  ],
+  "skills": [
+   "Diseño gráfico",
+   "Diseño para impresión"
+  ],
+  "description": "Tres etiquetas para botellas de 330 ml, con archivo listo para imprimir.",
+  "posted": "2026-11-20",
+  "deadline": "2026-12-12",
+  "status": "abierta"
+ },
+ {
+  "id": "op_006",
+  "branch": "diseno",
+  "specialty": "Diseño gráfico",
+  "title": "Flyers para campaña de ortodoncia",
+  "company_id": "u_c04",
+  "budget_cents": 45000,
+  "days": 6,
+  "modality": "Remoto",
+  "deliverables": [
+   "4 flyers digitales"
+  ],
+  "skills": [
+   "Diseño para redes"
+  ],
+  "description": "Cuatro flyers digitales para promocionar la evaluación de ortodoncia.",
+  "posted": "2026-11-09",
+  "deadline": "2026-11-27",
+  "status": "abierta"
+ },
+ {
+  "id": "op_007",
+  "branch": "diseno",
+  "specialty": "Video corto",
+  "title": "Reels de recetas de temporada",
+  "company_id": "u_c03",
+  "budget_cents": 60000,
+  "days": 10,
+  "modality": "Mixta",
+  "deliverables": [
+   "6 reels"
+  ],
+  "skills": [
+   "Edición de video corto",
+   "Grabación con celular"
+  ],
+  "description": "Seis reels cortos mostrando la preparación de postres de temporada.",
+  "posted": "2026-11-16",
+  "deadline": "2026-12-04",
+  "status": "abierta"
+ },
+ {
+  "id": "op_008",
+  "branch": "diseno",
+  "specialty": "Ilustración",
+  "title": "Mascota para el vivero",
+  "company_id": "u_c10",
+  "budget_cents": 80000,
+  "days": 14,
+  "modality": "Remoto",
+  "deliverables": [
+   "1 personaje en 3 poses"
+  ],
+  "skills": [
+   "Ilustración digital"
+  ],
+  "description": "Personaje ilustrado para usar en bolsas, afiches y redes.",
+  "posted": "2026-11-05",
+  "deadline": "2026-12-15",
+  "status": "abierta"
+ },
+ {
+  "id": "op_009",
+  "branch": "diseno",
+  "specialty": "Diseño gráfico",
+  "title": "Logo y papelería básica",
+  "company_id": "u_c15",
+  "budget_cents": 110000,
+  "days": 14,
+  "modality": "Remoto",
+  "deliverables": [
+   "Logo",
+   "Tarjeta",
+   "Hoja membretada"
+  ],
+  "skills": [
+   "Diseño gráfico",
+   "Identidad visual"
+  ],
+  "description": "Logo, tarjeta de presentación y hoja membretada para la veterinaria.",
+  "posted": "2026-11-12",
+  "deadline": "2026-11-28",
+  "status": "abierta"
+ },
+ {
+  "id": "op_010",
+  "branch": "diseno",
+  "specialty": "Fotografía de producto",
+  "title": "Sesión de fotos de la carta",
+  "company_id": "u_c01",
+  "budget_cents": 70000,
+  "days": 5,
+  "modality": "Presencial",
+  "deliverables": [
+   "12 fotos editadas"
+  ],
+  "skills": [
+   "Fotografía de producto"
+  ],
+  "description": "Sesión de fotos de 12 platos y bebidas de la carta nueva.",
+  "posted": "2026-11-19",
+  "deadline": "2026-12-06",
+  "status": "abierta"
+ },
+ {
+  "id": "op_011",
+  "branch": "redes",
+  "specialty": "Calendario de contenido",
+  "title": "Calendario mensual de publicaciones",
+  "company_id": "u_c07",
+  "budget_cents": 20000,
+  "days": 6,
+  "modality": "Remoto",
+  "deliverables": [
+   "12 publicaciones planificadas"
+  ],
+  "skills": [
+   "Planificación de contenido"
+  ],
+  "description": "Calendario de 12 publicaciones con textos para Instagram y Facebook del gimnasio.",
+  "posted": "2026-11-08",
+  "deadline": "2026-12-18",
+  "status": "abierta"
+ },
+ {
+  "id": "op_012",
+  "branch": "redes",
+  "specialty": "Atención de mensajes",
+  "title": "Respuestas a clientes interesados",
+  "company_id": "u_c06",
+  "budget_cents": 25000,
+  "days": 10,
+  "modality": "Remoto",
+  "deliverables": [
+   "Atención de lunes a viernes"
+  ],
+  "skills": [
+   "Atención al cliente",
+   "Comunicación escrita"
+  ],
+  "description": "Responder consultas de clientes interesados en departamentos, de lunes a viernes.",
+  "posted": "2026-11-15",
+  "deadline": "2026-11-30",
+  "status": "abierta"
+ },
+ {
+  "id": "op_013",
+  "branch": "redes",
+  "specialty": "Reportes",
+  "title": "Reporte mensual de métricas",
+  "company_id": "u_c05",
+  "budget_cents": 15000,
+  "days": 4,
+  "modality": "Remoto",
+  "deliverables": [
+   "1 reporte en PDF"
+  ],
+  "skills": [
+   "Análisis de redes"
+  ],
+  "description": "Informe mensual con alcance, interacciones y publicaciones destacadas.",
+  "posted": "2026-11-04",
+  "deadline": "2026-12-08",
+  "status": "abierta"
+ },
+ {
+  "id": "op_014",
+  "branch": "redes",
+  "specialty": "Community manager",
+  "title": "Manejo de Instagram por un mes",
+  "company_id": "u_c12",
+  "budget_cents": 60000,
+  "days": 30,
+  "modality": "Remoto",
+  "deliverables": [
+   "12 publicaciones",
+   "Respuesta de mensajes"
+  ],
+  "skills": [
+   "Planificación de contenido",
+   "Diseño para redes"
+  ],
+  "description": "Publicar y responder en el Instagram del hostal, con 12 piezas al mes.",
+  "posted": "2026-11-11",
+  "deadline": "2026-11-24",
+  "status": "abierta"
+ },
+ {
+  "id": "op_015",
+  "branch": "redes",
+  "specialty": "Calendario de contenido",
+  "title": "Plan de contenido para fin de año",
+  "company_id": "u_c03",
+  "budget_cents": 28000,
+  "days": 7,
+  "modality": "Remoto",
+  "deliverables": [
+   "Calendario de 20 publicaciones"
+  ],
+  "skills": [
+   "Planificación de contenido",
+   "Redacción comercial"
+  ],
+  "description": "Ideas y fechas de publicación para la temporada navideña.",
+  "posted": "2026-11-18",
+  "deadline": "2026-12-01",
+  "status": "abierta"
+ },
+ {
+  "id": "op_016",
+  "branch": "redes",
+  "specialty": "Atención de mensajes",
+  "title": "Guía de respuestas frecuentes",
+  "company_id": "u_c14",
+  "budget_cents": 18000,
+  "days": 5,
+  "modality": "Remoto",
+  "deliverables": [
+   "Guía de 20 respuestas"
+  ],
+  "skills": [
+   "Atención al cliente",
+   "Redacción comercial"
+  ],
+  "description": "Documento con respuestas a las 20 preguntas más comunes de los viajeros.",
+  "posted": "2026-11-07",
+  "deadline": "2026-12-10",
+  "status": "abierta"
+ },
+ {
+  "id": "op_017",
+  "branch": "redes",
+  "specialty": "Community manager",
+  "title": "Gestión de TikTok para la tienda",
+  "company_id": "u_c02",
+  "budget_cents": 55000,
+  "days": 21,
+  "modality": "Remoto",
+  "deliverables": [
+   "6 videos cortos"
+  ],
+  "skills": [
+   "Edición de video corto",
+   "Planificación de contenido"
+  ],
+  "description": "Crear y publicar videos cortos en TikTok, dos por semana.",
+  "posted": "2026-11-14",
+  "deadline": "2026-11-26",
+  "status": "abierta"
+ },
+ {
+  "id": "op_018",
+  "branch": "redes",
+  "specialty": "Reportes",
+  "title": "Análisis de anuncios en Facebook",
+  "company_id": "u_c09",
+  "budget_cents": 35000,
+  "days": 7,
+  "modality": "Remoto",
+  "deliverables": [
+   "Informe con mejoras"
+  ],
+  "skills": [
+   "Análisis de redes",
+   "Excel"
+  ],
+  "description": "Revisar resultados de campañas pagadas y proponer mejoras.",
+  "posted": "2026-11-03",
+  "deadline": "2026-12-02",
+  "status": "abierta"
+ },
+ {
+  "id": "op_019",
+  "branch": "redaccion",
+  "specialty": "Fichas de producto",
+  "title": "Fichas para catálogo de ferretería",
+  "company_id": "u_c16",
+  "budget_cents": 18000,
+  "days": 5,
+  "modality": "Remoto",
+  "deliverables": [
+   "10 fichas de producto"
+  ],
+  "skills": [
+   "Redacción comercial"
+  ],
+  "description": "Redactar nombre, medidas y uso de 10 productos de ferretería.",
+  "posted": "2026-11-10",
+  "deadline": "2026-12-12",
+  "status": "abierta"
+ },
+ {
+  "id": "op_020",
+  "branch": "redaccion",
+  "specialty": "Textos de venta",
+  "title": "Textos para paquetes turísticos",
+  "company_id": "u_c14",
+  "budget_cents": 30000,
+  "days": 6,
+  "modality": "Remoto",
+  "deliverables": [
+   "4 descripciones de paquete"
+  ],
+  "skills": [
+   "Redacción comercial"
+  ],
+  "description": "Textos para describir cuatro paquetes turísticos de la página web.",
+  "posted": "2026-11-17",
+  "deadline": "2026-11-27",
+  "status": "abierta"
+ },
+ {
+  "id": "op_021",
+  "branch": "redaccion",
+  "specialty": "Correo y WhatsApp",
+  "title": "Plantillas de WhatsApp comercial",
+  "company_id": "u_c09",
+  "budget_cents": 15000,
+  "days": 4,
+  "modality": "Remoto",
+  "deliverables": [
+   "6 plantillas de mensaje"
+  ],
+  "skills": [
+   "Redacción comercial",
+   "Atención al cliente"
+  ],
+  "description": "Seis mensajes listos para cotizar, confirmar pedidos y cobrar.",
+  "posted": "2026-11-06",
+  "deadline": "2026-12-04",
+  "status": "abierta"
+ },
+ {
+  "id": "op_022",
+  "branch": "redaccion",
+  "specialty": "Textos de venta",
+  "title": "Descripciones de propiedades",
+  "company_id": "u_c06",
+  "budget_cents": 40000,
+  "days": 8,
+  "modality": "Remoto",
+  "deliverables": [
+   "8 descripciones"
+  ],
+  "skills": [
+   "Redacción comercial"
+  ],
+  "description": "Descripción atractiva de 8 propiedades en venta y alquiler.",
+  "posted": "2026-11-13",
+  "deadline": "2026-12-15",
+  "status": "abierta"
+ },
+ {
+  "id": "op_023",
+  "branch": "redaccion",
+  "specialty": "Traducción",
+  "title": "Carta del café en inglés",
+  "company_id": "u_c01",
+  "budget_cents": 12000,
+  "days": 3,
+  "modality": "Remoto",
+  "deliverables": [
+   "Carta traducida"
+  ],
+  "skills": [
+   "Traducción"
+  ],
+  "description": "Traducir la carta de bebidas y postres para turistas.",
+  "posted": "2026-11-20",
+  "deadline": "2026-11-28",
+  "status": "abierta"
+ },
+ {
+  "id": "op_024",
+  "branch": "redaccion",
+  "specialty": "Fichas de producto",
+  "title": "Reseñas de libros para tienda web",
+  "company_id": "u_c05",
+  "budget_cents": 24000,
+  "days": 7,
+  "modality": "Remoto",
+  "deliverables": [
+   "12 reseñas cortas"
+  ],
+  "skills": [
+   "Redacción comercial"
+  ],
+  "description": "Reseñas y datos clave de 12 libros para la tienda web.",
+  "posted": "2026-11-09",
+  "deadline": "2026-12-06",
+  "status": "abierta"
+ },
+ {
+  "id": "op_025",
+  "branch": "redaccion",
+  "specialty": "Correo y WhatsApp",
+  "title": "Boletín mensual para pacientes",
+  "company_id": "u_c04",
+  "budget_cents": 22000,
+  "days": 5,
+  "modality": "Remoto",
+  "deliverables": [
+   "1 boletín"
+  ],
+  "skills": [
+   "Redacción comercial"
+  ],
+  "description": "Boletín con novedades y consejos de salud bucal para pacientes.",
+  "posted": "2026-11-16",
+  "deadline": "2026-12-18",
+  "status": "abierta"
+ },
+ {
+  "id": "op_026",
+  "branch": "redaccion",
+  "specialty": "Traducción",
+  "title": "Folleto turístico español-inglés",
+  "company_id": "u_c12",
+  "budget_cents": 26000,
+  "days": 5,
+  "modality": "Remoto",
+  "deliverables": [
+   "Folleto de 2 páginas"
+  ],
+  "skills": [
+   "Traducción"
+  ],
+  "description": "Traducir el folleto del valle central para visitantes extranjeros.",
+  "posted": "2026-11-05",
+  "deadline": "2026-11-30",
+  "status": "abierta"
+ },
+ {
+  "id": "op_027",
+  "branch": "web",
+  "specialty": "Páginas web",
+  "title": "Página de reservas para el hostal",
+  "company_id": "u_c12",
+  "budget_cents": 150000,
+  "days": 14,
+  "modality": "Remoto",
+  "deliverables": [
+   "Página de 1 sección con botón de WhatsApp"
+  ],
+  "skills": [
+   "HTML y CSS",
+   "Diseño web"
+  ],
+  "description": "Página con fotos, precios de habitaciones y botón de reserva por WhatsApp.",
+  "posted": "2026-11-12",
+  "deadline": "2026-12-08",
+  "status": "abierta"
+ },
+ {
+  "id": "op_028",
+  "branch": "web",
+  "specialty": "Tienda en línea",
+  "title": "Catálogo web con pedido por WhatsApp",
+  "company_id": "u_c02",
+  "budget_cents": 180000,
+  "days": 20,
+  "modality": "Remoto",
+  "deliverables": [
+   "Catálogo de 60 productos"
+  ],
+  "skills": [
+   "HTML y CSS",
+   "Diseño web"
+  ],
+  "description": "Catálogo con 60 productos y pedido directo por WhatsApp.",
+  "posted": "2026-11-19",
+  "deadline": "2026-11-24",
+  "status": "abierta"
+ },
+ {
+  "id": "op_029",
+  "branch": "web",
+  "specialty": "Datos",
+  "title": "Hoja de cálculo de inventario",
+  "company_id": "u_c16",
+  "budget_cents": 40000,
+  "days": 6,
+  "modality": "Remoto",
+  "deliverables": [
+   "Hoja con alertas de stock"
+  ],
+  "skills": [
+   "Excel avanzado"
+  ],
+  "description": "Hoja con entradas, salidas y alertas de stock mínimo.",
+  "posted": "2026-11-08",
+  "deadline": "2026-12-01",
+  "status": "abierta"
+ },
+ {
+  "id": "op_030",
+  "branch": "web",
+  "specialty": "Soporte técnico",
+  "title": "Ficha de Google Maps para la clínica",
+  "company_id": "u_c04",
+  "budget_cents": 20000,
+  "days": 3,
+  "modality": "Remoto",
+  "deliverables": [
+   "Ficha verificada"
+  ],
+  "skills": [
+   "Google Business"
+  ],
+  "description": "Crear y verificar la ficha de la clínica en Google Maps.",
+  "posted": "2026-11-15",
+  "deadline": "2026-12-10",
+  "status": "abierta"
+ },
+ {
+  "id": "op_031",
+  "branch": "web",
+  "specialty": "Páginas web",
+  "title": "Sitio con horarios de clases",
+  "company_id": "u_c07",
+  "budget_cents": 130000,
+  "days": 15,
+  "modality": "Remoto",
+  "deliverables": [
+   "Sitio de 3 secciones"
+  ],
+  "skills": [
+   "HTML y CSS",
+   "Diseño web"
+  ],
+  "description": "Sitio simple con horarios de clases, precios y formulario de contacto.",
+  "posted": "2026-11-04",
+  "deadline": "2026-11-26",
+  "status": "abierta"
+ },
+ {
+  "id": "op_032",
+  "branch": "web",
+  "specialty": "Datos",
+  "title": "Tablero de ventas en Excel",
+  "company_id": "u_c09",
+  "budget_cents": 55000,
+  "days": 8,
+  "modality": "Remoto",
+  "deliverables": [
+   "Tablero con gráficos"
+  ],
+  "skills": [
+   "Excel avanzado"
+  ],
+  "description": "Tablero con ventas por vendedor y por producto del último trimestre.",
+  "posted": "2026-11-11",
+  "deadline": "2026-12-02",
+  "status": "abierta"
+ },
+ {
+  "id": "op_033",
+  "branch": "admin",
+  "specialty": "Cobranza",
+  "title": "Seguimiento de facturas por cobrar",
+  "company_id": "u_c11",
+  "budget_cents": 45000,
+  "days": 12,
+  "modality": "Remoto",
+  "deliverables": [
+   "Lista de seguimiento semanal"
+  ],
+  "skills": [
+   "Atención al cliente",
+   "Excel"
+  ],
+  "description": "Llamar y escribir a clientes con facturas pendientes de pago.",
+  "posted": "2026-11-18",
+  "deadline": "2026-12-12",
+  "status": "abierta"
+ },
+ {
+  "id": "op_034",
+  "branch": "admin",
+  "specialty": "Transcripción",
+  "title": "Transcripción de reuniones",
+  "company_id": "u_c11",
+  "budget_cents": 30000,
+  "days": 5,
+  "modality": "Remoto",
+  "deliverables": [
+   "4 transcripciones"
+  ],
+  "skills": [
+   "Redacción",
+   "Atención al detalle"
+  ],
+  "description": "Pasar a texto cuatro reuniones grabadas de una hora.",
+  "posted": "2026-11-07",
+  "deadline": "2026-11-27",
+  "status": "abierta"
+ },
+ {
+  "id": "op_035",
+  "branch": "admin",
+  "specialty": "Atención al cliente",
+  "title": "Atención de reservas por WhatsApp",
+  "company_id": "u_c12",
+  "budget_cents": 50000,
+  "days": 20,
+  "modality": "Remoto",
+  "deliverables": [
+   "Atención diaria de 9 a 13"
+  ],
+  "skills": [
+   "Atención al cliente",
+   "WhatsApp Business"
+  ],
+  "description": "Responder reservas por WhatsApp y confirmar fechas en el calendario.",
+  "posted": "2026-11-14",
+  "deadline": "2026-12-04",
+  "status": "abierta"
+ },
+ {
+  "id": "op_036",
+  "branch": "admin",
+  "specialty": "Digitación",
+  "title": "Carga de productos al sistema",
+  "company_id": "u_c09",
+  "budget_cents": 28000,
+  "days": 6,
+  "modality": "Mixta",
+  "deliverables": [
+   "300 productos cargados"
+  ],
+  "skills": [
+   "Excel",
+   "Atención al detalle"
+  ],
+  "description": "Cargar 300 productos con precio y código al sistema de inventario.",
+  "posted": "2026-11-03",
+  "deadline": "2026-12-15",
+  "status": "abierta"
+ },
+ {
+  "id": "op_037",
+  "branch": "formacion",
+  "specialty": "Material didáctico",
+  "title": "Guías de matemática para secundaria",
+  "company_id": "u_c08",
+  "budget_cents": 60000,
+  "days": 15,
+  "modality": "Remoto",
+  "deliverables": [
+   "6 guías con ejercicios resueltos"
+  ],
+  "skills": [
+   "Matemática",
+   "Redacción"
+  ],
+  "description": "Seis guías con ejercicios resueltos para primero y segundo de secundaria.",
+  "posted": "2026-11-10",
+  "deadline": "2026-11-28",
+  "status": "abierta"
+ },
+ {
+  "id": "op_038",
+  "branch": "formacion",
+  "specialty": "Clases",
+  "title": "Refuerzo de inglés para niños",
+  "company_id": "u_c08",
+  "budget_cents": 90000,
+  "days": 30,
+  "modality": "Presencial",
+  "deliverables": [
+   "8 semanas de clases"
+  ],
+  "skills": [
+   "Inglés",
+   "Trato con niños"
+  ],
+  "description": "Dos clases por semana para un grupo de ocho niños.",
+  "posted": "2026-11-17",
+  "deadline": "2026-12-06",
+  "status": "abierta"
+ },
+ {
+  "id": "op_039",
+  "branch": "formacion",
+  "specialty": "Material didáctico",
+  "title": "Presentaciones para taller de ventas",
+  "company_id": "u_c11",
+  "budget_cents": 35000,
+  "days": 7,
+  "modality": "Remoto",
+  "deliverables": [
+   "20 diapositivas"
+  ],
+  "skills": [
+   "Diseño de presentaciones"
+  ],
+  "description": "Diseñar 20 diapositivas para un taller de técnicas de venta.",
+  "posted": "2026-11-06",
+  "deadline": "2026-12-18",
+  "status": "abierta"
+ },
+ {
+  "id": "op_040",
+  "branch": "formacion",
+  "specialty": "Clases",
+  "title": "Clases de Excel básico para el equipo",
+  "company_id": "u_c09",
+  "budget_cents": 70000,
+  "days": 10,
+  "modality": "Mixta",
+  "deliverables": [
+   "4 sesiones"
+  ],
+  "skills": [
+   "Excel avanzado",
+   "Enseñanza"
+  ],
+  "description": "Cuatro sesiones para enseñar fórmulas y tablas dinámicas al equipo.",
+  "posted": "2026-11-13",
+  "deadline": "2026-11-30",
+  "status": "abierta"
+ },
+ {
+  "id": "op_041",
+  "branch": "diseno",
+  "specialty": "Fotografía de producto",
+  "title": "Fotos de los cafés de temporada",
+  "company_id": "u_c01",
+  "budget_cents": 45000,
+  "days": 7,
+  "modality": "Presencial",
+  "deliverables": [
+   "12 fotos"
+  ],
+  "skills": [
+   "Fotografía de producto",
+   "Edición de fotos"
+  ],
+  "description": "Sesión en el local con la carta nueva y edición lista para redes.",
+  "posted": "2026-11-18",
+  "deadline": "2026-12-05",
+  "status": "abierta"
+ },
+ {
+  "id": "op_042",
+  "branch": "redes",
+  "specialty": "Community manager",
+  "title": "Calendario de contenido para diciembre",
+  "company_id": "u_c01",
+  "budget_cents": 38000,
+  "days": 10,
+  "modality": "Remoto",
+  "deliverables": [
+   "1 calendario",
+   "12 textos"
+  ],
+  "skills": [
+   "Planificación de contenido",
+   "Redacción comercial"
+  ],
+  "description": "Plan de publicaciones y textos para las fiestas de fin de año.",
+  "posted": "2026-11-19",
+  "deadline": "2026-12-08",
+  "status": "abierta"
+ },
+ {
+  "id": "op_043",
+  "branch": "diseno",
+  "specialty": "Diseño gráfico",
+  "title": "Etiquetas para panes y empaques",
+  "company_id": "u_c17",
+  "budget_cents": 52000,
+  "days": 12,
+  "modality": "Mixta",
+  "deliverables": [
+   "6 etiquetas"
+  ],
+  "skills": [
+   "Diseño para impresión",
+   "Identidad visual"
+  ],
+  "description": "Etiquetas adhesivas y bolsas con la marca de la panadería.",
+  "posted": "2026-11-20",
+  "deadline": "2026-12-11",
+  "status": "abierta"
+ },
+ {
+  "id": "op_044",
+  "branch": "redes",
+  "specialty": "Video corto",
+  "title": "Reels de horneado en vivo",
+  "company_id": "u_c17",
+  "budget_cents": 40000,
+  "days": 8,
+  "modality": "Presencial",
+  "deliverables": [
+   "4 reels"
+  ],
+  "skills": [
+   "Grabación con celular",
+   "Edición de video corto"
+  ],
+  "description": "Videos cortos de la producción de la mañana para Instagram y TikTok.",
+  "posted": "2026-11-21",
+  "deadline": "2026-12-14",
+  "status": "abierta"
+ },
+ {
+  "id": "op_045",
+  "branch": "web",
+  "specialty": "Páginas web",
+  "title": "Sitio simple con citas y ubicación",
+  "company_id": "u_c18",
+  "budget_cents": 90000,
+  "days": 20,
+  "modality": "Remoto",
+  "deliverables": [
+   "1 sitio de 4 páginas"
+  ],
+  "skills": [
+   "Diseño web",
+   "HTML y CSS"
+  ],
+  "description": "Página con horarios, mapa y botón de WhatsApp para pedir cita.",
+  "posted": "2026-11-18",
+  "deadline": "2026-12-17",
+  "status": "abierta"
+ },
+ {
+  "id": "op_046",
+  "branch": "redaccion",
+  "specialty": "Textos de venta",
+  "title": "Textos para el catálogo de lentes",
+  "company_id": "u_c18",
+  "budget_cents": 30000,
+  "days": 6,
+  "modality": "Remoto",
+  "deliverables": [
+   "20 fichas"
+  ],
+  "skills": [
+   "Redacción comercial",
+   "Comunicación escrita"
+  ],
+  "description": "Descripciones claras de armazones y lentes para la tienda en línea.",
+  "posted": "2026-11-19",
+  "deadline": "2026-12-20",
+  "status": "abierta"
+ },
+ {
+  "id": "op_047",
+  "branch": "diseno",
+  "specialty": "Ilustración",
+  "title": "Ilustraciones de patrones andinos",
+  "company_id": "u_c19",
+  "budget_cents": 70000,
+  "days": 18,
+  "modality": "Remoto",
+  "deliverables": [
+   "10 ilustraciones"
+  ],
+  "skills": [
+   "Ilustración digital",
+   "Diseño gráfico"
+  ],
+  "description": "Patrones inspirados en tejidos locales para estampar en prendas.",
+  "posted": "2026-11-20",
+  "deadline": "2026-12-23",
+  "status": "abierta"
+ },
+ {
+  "id": "op_048",
+  "branch": "diseno",
+  "specialty": "Fotografía de producto",
+  "title": "Lookbook de la colección de verano",
+  "company_id": "u_c19",
+  "budget_cents": 85000,
+  "days": 14,
+  "modality": "Presencial",
+  "deliverables": [
+   "25 fotos editadas"
+  ],
+  "skills": [
+   "Fotografía de producto",
+   "Edición de fotos",
+   "Diseño para redes"
+  ],
+  "description": "Fotos de prendas en el taller y en exteriores con edición básica.",
+  "posted": "2026-11-21",
+  "deadline": "2026-12-26",
+  "status": "abierta"
+ },
+ {
+  "id": "op_049",
+  "branch": "admin",
+  "specialty": "Reportes",
+  "title": "Reporte mensual de reservas",
+  "company_id": "u_c20",
+  "budget_cents": 35000,
+  "days": 6,
+  "modality": "Remoto",
+  "deliverables": [
+   "1 reporte"
+  ],
+  "skills": [
+   "Excel avanzado",
+   "Atención al detalle"
+  ],
+  "description": "Ordenar las reservas de salas y sacar un resumen por semana.",
+  "posted": "2026-11-18",
+  "deadline": "2026-12-06",
+  "status": "abierta"
+ },
+ {
+  "id": "op_050",
+  "branch": "redes",
+  "specialty": "Calendario de contenido",
+  "title": "Contenido para el lanzamiento del cowork",
+  "company_id": "u_c20",
+  "budget_cents": 50000,
+  "days": 12,
+  "modality": "Remoto",
+  "deliverables": [
+   "12 piezas",
+   "1 calendario"
+  ],
+  "skills": [
+   "Planificación de contenido",
+   "Diseño para redes"
+  ],
+  "description": "Publicaciones para presentar los planes y las salas del espacio.",
+  "posted": "2026-11-19",
+  "deadline": "2026-12-09",
+  "status": "abierta"
+ },
+ {
+  "id": "op_051",
+  "branch": "redes",
+  "specialty": "Atención de mensajes",
+  "title": "Atención de pedidos por WhatsApp",
+  "company_id": "u_c03",
+  "budget_cents": 42000,
+  "days": 15,
+  "modality": "Remoto",
+  "deliverables": [
+   "15 días de atención"
+  ],
+  "skills": [
+   "Atención al cliente",
+   "WhatsApp Business"
+  ],
+  "description": "Responder consultas y anotar pedidos de tortas en horario de tarde.",
+  "posted": "2026-11-20",
+  "deadline": "2026-12-12",
+  "status": "abierta"
+ },
+ {
+  "id": "op_052",
+  "branch": "formacion",
+  "specialty": "Material didáctico",
+  "title": "Fichas de lectura para talleres",
+  "company_id": "u_c05",
+  "budget_cents": 48000,
+  "days": 10,
+  "modality": "Remoto",
+  "deliverables": [
+   "8 fichas"
+  ],
+  "skills": [
+   "Enseñanza",
+   "Redacción"
+  ],
+  "description": "Fichas con preguntas para los talleres de lectura de niños.",
+  "posted": "2026-11-21",
+  "deadline": "2026-12-15",
+  "status": "abierta"
+ },
+ {
+  "id": "op_053",
+  "branch": "formacion",
+  "specialty": "Clases",
+  "title": "Refuerzo de matemática para primaria",
+  "company_id": "u_c08",
+  "budget_cents": 60000,
+  "days": 20,
+  "modality": "Presencial",
+  "deliverables": [
+   "16 clases"
+  ],
+  "skills": [
+   "Enseñanza",
+   "Matemática",
+   "Trato con niños"
+  ],
+  "description": "Clases de refuerzo dos veces por semana para grupos pequeños.",
+  "posted": "2026-11-18",
+  "deadline": "2026-12-18",
+  "status": "abierta"
+ },
+ {
+  "id": "op_054",
+  "branch": "formacion",
+  "specialty": "Material didáctico",
+  "title": "Presentaciones para clases de inglés",
+  "company_id": "u_c08",
+  "budget_cents": 45000,
+  "days": 9,
+  "modality": "Remoto",
+  "deliverables": [
+   "10 presentaciones"
+  ],
+  "skills": [
+   "Diseño de presentaciones",
+   "Inglés",
+   "Enseñanza"
+  ],
+  "description": "Presentaciones claras y con imágenes para las clases del nivel básico.",
+  "posted": "2026-11-19",
+  "deadline": "2026-12-21",
+  "status": "abierta"
+ },
+ {
+  "id": "op_055",
+  "branch": "web",
+  "specialty": "Datos",
+  "title": "Base de datos de propiedades en Excel",
+  "company_id": "u_c06",
+  "budget_cents": 55000,
+  "days": 8,
+  "modality": "Remoto",
+  "deliverables": [
+   "1 planilla ordenada"
+  ],
+  "skills": [
+   "Excel avanzado",
+   "Excel"
+  ],
+  "description": "Pasar la lista de propiedades a una planilla con filtros y totales.",
+  "posted": "2026-11-20",
+  "deadline": "2026-12-24",
+  "status": "abierta"
+ },
+ {
+  "id": "op_056",
+  "branch": "diseno",
+  "specialty": "Fotografía de producto",
+  "title": "Fotos de inmuebles para el catálogo",
+  "company_id": "u_c06",
+  "budget_cents": 80000,
+  "days": 10,
+  "modality": "Presencial",
+  "deliverables": [
+   "40 fotos editadas"
+  ],
+  "skills": [
+   "Fotografía de producto",
+   "Edición de fotos"
+  ],
+  "description": "Fotos de interiores y fachadas listas para el catálogo.",
+  "posted": "2026-11-21",
+  "deadline": "2026-12-27",
+  "status": "abierta"
+ },
+ {
+  "id": "op_057",
+  "branch": "redes",
+  "specialty": "Community manager",
+  "title": "Retos de 30 días para socios",
+  "company_id": "u_c07",
+  "budget_cents": 46000,
+  "days": 12,
+  "modality": "Remoto",
+  "deliverables": [
+   "30 publicaciones"
+  ],
+  "skills": [
+   "Planificación de contenido",
+   "Diseño para redes"
+  ],
+  "description": "Piezas y textos para un reto de constancia con los socios del gimnasio.",
+  "posted": "2026-11-18",
+  "deadline": "2026-12-07",
+  "status": "abierta"
+ },
+ {
+  "id": "op_058",
+  "branch": "diseno",
+  "specialty": "Video corto",
+  "title": "Videos de rutinas de entrenamiento",
+  "company_id": "u_c07",
+  "budget_cents": 62000,
+  "days": 10,
+  "modality": "Presencial",
+  "deliverables": [
+   "6 videos"
+  ],
+  "skills": [
+   "Grabación con celular",
+   "Edición de video corto"
+  ],
+  "description": "Videos cortos de rutinas explicadas por los entrenadores.",
+  "posted": "2026-11-19",
+  "deadline": "2026-12-10",
+  "status": "abierta"
+ },
+ {
+  "id": "op_059",
+  "branch": "admin",
+  "specialty": "Digitación",
+  "title": "Digitación de inventario",
+  "company_id": "u_c09",
+  "budget_cents": 30000,
+  "days": 7,
+  "modality": "Presencial",
+  "deliverables": [
+   "500 productos cargados"
+  ],
+  "skills": [
+   "Atención al detalle",
+   "Excel"
+  ],
+  "description": "Cargar el inventario del almacén a una planilla ordenada.",
+  "posted": "2026-11-20",
+  "deadline": "2026-12-13",
+  "status": "abierta"
+ },
+ {
+  "id": "op_060",
+  "branch": "admin",
+  "specialty": "Cobranza",
+  "title": "Seguimiento de cuentas por cobrar",
+  "company_id": "u_c09",
+  "budget_cents": 40000,
+  "days": 10,
+  "modality": "Remoto",
+  "deliverables": [
+   "1 reporte semanal"
+  ],
+  "skills": [
+   "Atención al cliente",
+   "Comunicación escrita",
+   "Excel"
+  ],
+  "description": "Recordar pagos pendientes a clientes por mensaje y anotar las respuestas.",
+  "posted": "2026-11-21",
+  "deadline": "2026-12-16",
+  "status": "abierta"
+ },
+ {
+  "id": "op_061",
+  "branch": "redes",
+  "specialty": "Community manager",
+  "title": "Ficha de Google Business y reseñas",
+  "company_id": "u_c10",
+  "budget_cents": 28000,
+  "days": 5,
+  "modality": "Remoto",
+  "deliverables": [
+   "1 ficha completa"
+  ],
+  "skills": [
+   "Google Business",
+   "Atención al cliente"
+  ],
+  "description": "Completar la ficha del vivero y responder las reseñas recibidas.",
+  "posted": "2026-11-18",
+  "deadline": "2026-12-19",
+  "status": "abierta"
+ },
+ {
+  "id": "op_062",
+  "branch": "diseno",
+  "specialty": "Diseño gráfico",
+  "title": "Carteles para el vivero",
+  "company_id": "u_c10",
+  "budget_cents": 35000,
+  "days": 6,
+  "modality": "Mixta",
+  "deliverables": [
+   "4 carteles"
+  ],
+  "skills": [
+   "Diseño para impresión",
+   "Diseño gráfico"
+  ],
+  "description": "Carteles de precios y cuidados de plantas para imprimir.",
+  "posted": "2026-11-19",
+  "deadline": "2026-12-22",
+  "status": "abierta"
+ },
+ {
+  "id": "op_063",
+  "branch": "web",
+  "specialty": "Datos",
+  "title": "Tablero de ingresos y gastos",
+  "company_id": "u_c11",
+  "budget_cents": 75000,
+  "days": 14,
+  "modality": "Remoto",
+  "deliverables": [
+   "1 tablero"
+  ],
+  "skills": [
+   "Excel avanzado",
+   "Matemática"
+  ],
+  "description": "Un tablero mensual con ingresos, gastos y saldos por cliente.",
+  "posted": "2026-11-20",
+  "deadline": "2026-12-25",
+  "status": "abierta"
+ },
+ {
+  "id": "op_064",
+  "branch": "redaccion",
+  "specialty": "Redacción",
+  "title": "Boletín mensual para clientes",
+  "company_id": "u_c11",
+  "budget_cents": 42000,
+  "days": 8,
+  "modality": "Remoto",
+  "deliverables": [
+   "3 boletines"
+  ],
+  "skills": [
+   "Redacción",
+   "Comunicación escrita"
+  ],
+  "description": "Boletín corto con novedades de impuestos explicadas en simple.",
+  "posted": "2026-11-21",
+  "deadline": "2026-12-05",
+  "status": "abierta"
+ },
+ {
+  "id": "op_065",
+  "branch": "redaccion",
+  "specialty": "Traducción",
+  "title": "Traducción del sitio al inglés",
+  "company_id": "u_c12",
+  "budget_cents": 65000,
+  "days": 10,
+  "modality": "Remoto",
+  "deliverables": [
+   "1 sitio traducido"
+  ],
+  "skills": [
+   "Traducción",
+   "Inglés"
+  ],
+  "description": "Pasar los textos del sitio del hostal al inglés para turistas.",
+  "posted": "2026-11-18",
+  "deadline": "2026-12-08",
+  "status": "abierta"
+ },
+ {
+  "id": "op_066",
+  "branch": "redes",
+  "specialty": "Atención de mensajes",
+  "title": "Respuestas a huéspedes en inglés",
+  "company_id": "u_c12",
+  "budget_cents": 48000,
+  "days": 12,
+  "modality": "Remoto",
+  "deliverables": [
+   "12 días de atención"
+  ],
+  "skills": [
+   "Atención al cliente",
+   "Inglés",
+   "WhatsApp Business"
+  ],
+  "description": "Atender consultas de reservas de huéspedes extranjeros.",
+  "posted": "2026-11-19",
+  "deadline": "2026-12-11",
+  "status": "abierta"
+ },
+ {
+  "id": "op_067",
+  "branch": "diseno",
+  "specialty": "Identidad visual",
+  "title": "Etiquetas para tres cervezas nuevas",
+  "company_id": "u_c13",
+  "budget_cents": 90000,
+  "days": 15,
+  "modality": "Mixta",
+  "deliverables": [
+   "3 etiquetas"
+  ],
+  "skills": [
+   "Identidad visual",
+   "Ilustración digital",
+   "Diseño para impresión"
+  ],
+  "description": "Etiquetas con ilustración propia para las nuevas recetas.",
+  "posted": "2026-11-20",
+  "deadline": "2026-12-14",
+  "status": "abierta"
+ },
+ {
+  "id": "op_068",
+  "branch": "web",
+  "specialty": "Páginas web",
+  "title": "Página de paquetes turísticos",
+  "company_id": "u_c14",
+  "budget_cents": 100000,
+  "days": 21,
+  "modality": "Remoto",
+  "deliverables": [
+   "1 sitio de 5 páginas"
+  ],
+  "skills": [
+   "Diseño web",
+   "HTML y CSS",
+   "Google Business"
+  ],
+  "description": "Página con paquetes, precios y botón de contacto por WhatsApp.",
+  "posted": "2026-11-21",
+  "deadline": "2026-12-17",
+  "status": "abierta"
+ },
+ {
+  "id": "op_069",
+  "branch": "redes",
+  "specialty": "Video corto",
+  "title": "Videos de consejos para mascotas",
+  "company_id": "u_c15",
+  "budget_cents": 39000,
+  "days": 9,
+  "modality": "Presencial",
+  "deliverables": [
+   "5 videos"
+  ],
+  "skills": [
+   "Grabación con celular",
+   "Edición de video corto",
+   "Planificación de contenido"
+  ],
+  "description": "Videos cortos con consejos de cuidado grabados en la clínica.",
+  "posted": "2026-11-18",
+  "deadline": "2026-12-20",
+  "status": "abierta"
+ },
+ {
+  "id": "op_070",
+  "branch": "redaccion",
+  "specialty": "Fichas de producto",
+  "title": "Fichas de herramientas para la tienda",
+  "company_id": "u_c16",
+  "budget_cents": 52000,
+  "days": 12,
+  "modality": "Remoto",
+  "deliverables": [
+   "30 fichas"
+  ],
+  "skills": [
+   "Redacción comercial",
+   "Atención al detalle"
+  ],
+  "description": "Descripciones y medidas de herramientas para el catálogo en línea.",
+  "posted": "2026-11-19",
+  "deadline": "2026-12-23",
+  "status": "abierta"
+ }
+]

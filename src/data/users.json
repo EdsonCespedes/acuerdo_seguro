@@ -1,0 +1,706 @@
+[
+ {
+  "id": "u_w1",
+  "role": "worker",
+  "name": "Camila Rojas Quispe",
+  "city": "Cochabamba",
+  "since": "2026-09-14",
+  "headline": "Diseño gráfico y edición de video corto para negocios locales",
+  "skills": [
+   "Diseño para redes",
+   "Edición de video corto",
+   "Fotografía con celular"
+  ],
+  "tools": [
+   "Canva",
+   "CapCut",
+   "Photoshop"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 40,
+  "experience": [
+   "Afiches y reels para la Feria Universitaria 2025",
+   "Diseño de menú para un puesto de comida en la Cancha",
+   "Edición de videos para un canal de cocina"
+  ]
+ },
+ {
+  "id": "u_w2",
+  "role": "worker",
+  "name": "Diego Flores Camacho",
+  "city": "Cochabamba",
+  "since": "2026-08-02",
+  "headline": "Community manager y redacción comercial",
+  "skills": [
+   "Calendario de contenido",
+   "Redacción comercial"
+  ],
+  "tools": [
+   "Meta Business",
+   "Notion"
+  ],
+  "availability": "25 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 35,
+  "experience": []
+ },
+ {
+  "id": "u_w3",
+  "role": "worker",
+  "name": "Lucía Mamani Choque",
+  "city": "Sacaba",
+  "since": "2026-07-21",
+  "headline": "Desarrollo web básico y hojas de cálculo",
+  "skills": [
+   "HTML y CSS",
+   "Excel avanzado"
+  ],
+  "tools": [
+   "VS Code",
+   "Excel"
+  ],
+  "availability": "15 horas por semana",
+  "modality": "Mixta",
+  "rate_bs": 50,
+  "experience": []
+ },
+ {
+  "id": "u_w4",
+  "role": "worker",
+  "name": "Marco Villarroel Arce",
+  "city": "Cochabamba",
+  "since": "2026-10-05",
+  "headline": "Fotografía de producto y video",
+  "skills": [
+   "Fotografía de producto",
+   "Edición de video corto"
+  ],
+  "tools": [
+   "Lightroom",
+   "DaVinci Resolve"
+  ],
+  "availability": "Fines de semana",
+  "modality": "Presencial",
+  "rate_bs": 45,
+  "experience": []
+ },
+ {
+  "id": "u_w5",
+  "role": "worker",
+  "name": "Valeria Gutiérrez Salvatierra",
+  "city": "Quillacollo",
+  "since": "2026-10-19",
+  "headline": "Traducción inglés-español y atención al cliente",
+  "skills": [
+   "Traducción",
+   "Atención al cliente"
+  ],
+  "tools": [
+   "Google Docs",
+   "WhatsApp Business"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 38,
+  "experience": []
+ },
+ {
+  "id": "u_w6",
+  "role": "worker",
+  "name": "Andrés Paz Ledezma",
+  "city": "Cochabamba",
+  "since": "2026-10-01",
+  "headline": "Identidad visual y logotipos para emprendimientos",
+  "skills": [
+   "Identidad visual",
+   "Diseño gráfico",
+   "Ilustración digital"
+  ],
+  "tools": [
+   "Illustrator",
+   "Figma"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 45,
+  "experience": []
+ },
+ {
+  "id": "u_w7",
+  "role": "worker",
+  "name": "Mariela Orellana Vargas",
+  "city": "Cochabamba",
+  "since": "2026-10-02",
+  "headline": "Textos de venta y fichas de producto",
+  "skills": [
+   "Redacción comercial",
+   "Redacción",
+   "Comunicación escrita"
+  ],
+  "tools": [
+   "Google Docs",
+   "Notion"
+  ],
+  "availability": "25 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 35,
+  "experience": []
+ },
+ {
+  "id": "u_w8",
+  "role": "worker",
+  "name": "Joaquín Salazar Mérida",
+  "city": "Sacaba",
+  "since": "2026-10-03",
+  "headline": "Páginas web simples y tiendas en línea",
+  "skills": [
+   "Diseño web",
+   "HTML y CSS",
+   "Atención al detalle"
+  ],
+  "tools": [
+   "VS Code",
+   "WordPress"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 55,
+  "experience": []
+ },
+ {
+  "id": "u_w9",
+  "role": "worker",
+  "name": "Daniela Condori Apaza",
+  "city": "Cochabamba",
+  "since": "2026-10-04",
+  "headline": "Fotografía de producto y edición de fotos",
+  "skills": [
+   "Fotografía de producto",
+   "Edición de fotos"
+  ],
+  "tools": [
+   "Lightroom",
+   "Snapseed"
+  ],
+  "availability": "Fines de semana",
+  "modality": "Presencial",
+  "rate_bs": 45,
+  "experience": []
+ },
+ {
+  "id": "u_w10",
+  "role": "worker",
+  "name": "Rodrigo Antezana Lara",
+  "city": "Quillacollo",
+  "since": "2026-10-05",
+  "headline": "Planillas y reportes en Excel para negocios",
+  "skills": [
+   "Excel avanzado",
+   "Excel",
+   "Atención al detalle"
+  ],
+  "tools": [
+   "Excel",
+   "Google Sheets"
+  ],
+  "availability": "15 horas por semana",
+  "modality": "Mixta",
+  "rate_bs": 50,
+  "experience": []
+ },
+ {
+  "id": "u_w11",
+  "role": "worker",
+  "name": "Paola Zurita Rivero",
+  "city": "Cochabamba",
+  "since": "2026-10-06",
+  "headline": "Refuerzo escolar de matemática para primaria",
+  "skills": [
+   "Enseñanza",
+   "Matemática",
+   "Trato con niños"
+  ],
+  "tools": [
+   "Zoom",
+   "Google Meet"
+  ],
+  "availability": "15 horas por semana",
+  "modality": "Presencial",
+  "rate_bs": 40,
+  "experience": []
+ },
+ {
+  "id": "u_w12",
+  "role": "worker",
+  "name": "Gonzalo Rocha Pinto",
+  "city": "Cochabamba",
+  "since": "2026-10-07",
+  "headline": "Grabación y edición de reels con el celular",
+  "skills": [
+   "Grabación con celular",
+   "Edición de video corto"
+  ],
+  "tools": [
+   "CapCut",
+   "InShot"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Mixta",
+  "rate_bs": 40,
+  "experience": []
+ },
+ {
+  "id": "u_w13",
+  "role": "worker",
+  "name": "Alejandra Vega Cossío",
+  "city": "Tiquipaya",
+  "since": "2026-10-08",
+  "headline": "Community manager para comercios locales",
+  "skills": [
+   "Planificación de contenido",
+   "Diseño para redes",
+   "Atención al cliente"
+  ],
+  "tools": [
+   "Meta Business",
+   "Canva"
+  ],
+  "availability": "25 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 38,
+  "experience": []
+ },
+ {
+  "id": "u_w14",
+  "role": "worker",
+  "name": "Fernando Quiroga Baldivieso",
+  "city": "Cochabamba",
+  "since": "2026-10-09",
+  "headline": "Traducción y redacción en inglés",
+  "skills": [
+   "Traducción",
+   "Inglés",
+   "Redacción"
+  ],
+  "tools": [
+   "Google Docs",
+   "DeepL"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 48,
+  "experience": []
+ },
+ {
+  "id": "u_w15",
+  "role": "worker",
+  "name": "Natalia Heredia Montaño",
+  "city": "Cochabamba",
+  "since": "2026-10-10",
+  "headline": "Presentaciones y material para clases",
+  "skills": [
+   "Diseño de presentaciones",
+   "Enseñanza",
+   "Diseño gráfico"
+  ],
+  "tools": [
+   "PowerPoint",
+   "Canva"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 42,
+  "experience": []
+ },
+ {
+  "id": "u_w16",
+  "role": "worker",
+  "name": "Sebastián Arce Guzmán",
+  "city": "Sacaba",
+  "since": "2026-10-11",
+  "headline": "Afiches, volantes y etiquetas listos para imprimir",
+  "skills": [
+   "Diseño para impresión",
+   "Diseño gráfico",
+   "Identidad visual"
+  ],
+  "tools": [
+   "Illustrator",
+   "Photoshop"
+  ],
+  "availability": "Fines de semana",
+  "modality": "Mixta",
+  "rate_bs": 45,
+  "experience": []
+ },
+ {
+  "id": "u_w17",
+  "role": "worker",
+  "name": "Karen Mendoza Ríos",
+  "city": "Quillacollo",
+  "since": "2026-10-12",
+  "headline": "Atención al cliente por WhatsApp y correo",
+  "skills": [
+   "Atención al cliente",
+   "WhatsApp Business",
+   "Comunicación escrita"
+  ],
+  "tools": [
+   "WhatsApp Business",
+   "Gmail"
+  ],
+  "availability": "25 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 34,
+  "experience": []
+ },
+ {
+  "id": "u_w18",
+  "role": "worker",
+  "name": "Iván Torrico Soliz",
+  "city": "Cochabamba",
+  "since": "2026-10-13",
+  "headline": "Análisis de datos y tableros simples",
+  "skills": [
+   "Excel avanzado",
+   "Matemática",
+   "Análisis de redes"
+  ],
+  "tools": [
+   "Excel",
+   "Looker Studio"
+  ],
+  "availability": "15 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 60,
+  "experience": []
+ },
+ {
+  "id": "u_w19",
+  "role": "worker",
+  "name": "Lorena Baptista Cruz",
+  "city": "Cochabamba",
+  "since": "2026-10-14",
+  "headline": "Ilustración digital para marcas y cuentos infantiles",
+  "skills": [
+   "Ilustración digital",
+   "Diseño gráfico",
+   "Identidad visual"
+  ],
+  "tools": [
+   "Procreate",
+   "Photoshop"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 50,
+  "experience": []
+ },
+ {
+  "id": "u_w20",
+  "role": "worker",
+  "name": "Bruno Escalera Gutiérrez",
+  "city": "Cochabamba",
+  "since": "2026-10-15",
+  "headline": "Presencia local: Google Business, reseñas y contenido",
+  "skills": [
+   "Google Business",
+   "Atención al cliente",
+   "Planificación de contenido"
+  ],
+  "tools": [
+   "Google Business",
+   "Notion"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Mixta",
+  "rate_bs": 36,
+  "experience": []
+ },
+ {
+  "id": "u_w21",
+  "role": "worker",
+  "name": "Estefanía Rojas Yapura",
+  "city": "Tiquipaya",
+  "since": "2026-10-16",
+  "headline": "Blogs y boletines para negocios",
+  "skills": [
+   "Redacción",
+   "Comunicación escrita",
+   "Planificación de contenido"
+  ],
+  "tools": [
+   "WordPress",
+   "Mailchimp"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 38,
+  "experience": []
+ },
+ {
+  "id": "u_w22",
+  "role": "worker",
+  "name": "Mauricio Delgadillo Sejas",
+  "city": "Cochabamba",
+  "since": "2026-10-17",
+  "headline": "Digitación, inventarios y soporte básico",
+  "skills": [
+   "Atención al detalle",
+   "Excel",
+   "Atención al cliente"
+  ],
+  "tools": [
+   "Excel",
+   "TeamViewer"
+  ],
+  "availability": "30 horas por semana",
+  "modality": "Presencial",
+  "rate_bs": 30,
+  "experience": []
+ },
+ {
+  "id": "u_w23",
+  "role": "worker",
+  "name": "Rosario Choque Villca",
+  "city": "Quillacollo",
+  "since": "2026-10-18",
+  "headline": "Retoque de fotos y diseño para tiendas",
+  "skills": [
+   "Edición de fotos",
+   "Fotografía de producto",
+   "Diseño para redes"
+  ],
+  "tools": [
+   "Photoshop",
+   "Lightroom"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Mixta",
+  "rate_bs": 42,
+  "experience": []
+ },
+ {
+  "id": "u_w24",
+  "role": "worker",
+  "name": "Tomás Aguilar Prado",
+  "city": "Cochabamba",
+  "since": "2026-10-19",
+  "headline": "Diseño web y mantenimiento de sitios",
+  "skills": [
+   "Diseño web",
+   "HTML y CSS",
+   "Google Business"
+  ],
+  "tools": [
+   "Figma",
+   "VS Code"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 58,
+  "experience": []
+ },
+ {
+  "id": "u_w25",
+  "role": "worker",
+  "name": "Gabriela Lazcano Pérez",
+  "city": "Cochabamba",
+  "since": "2026-10-20",
+  "headline": "Transcripción, traducción y atención en inglés",
+  "skills": [
+   "Traducción",
+   "Inglés",
+   "Atención al detalle"
+  ],
+  "tools": [
+   "Google Docs",
+   "Otter"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 40,
+  "experience": []
+ },
+ {
+  "id": "u_c01",
+  "role": "company",
+  "name": "Café Tunari Roasters",
+  "rubro": "Gastronomía",
+  "city": "Cochabamba",
+  "description": "Tostaduría y cafetería de especialidad con dos locales en la zona norte.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c02",
+  "role": "company",
+  "name": "Boutique Wayra",
+  "rubro": "Moda",
+  "city": "Cochabamba",
+  "description": "Ropa y accesorios de diseño boliviano, venta en tienda y por redes.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c03",
+  "role": "company",
+  "name": "Dulce Maíz Pastelería",
+  "rubro": "Gastronomía",
+  "city": "Cochabamba",
+  "description": "Pastelería artesanal con pedidos para eventos y delivery.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c04",
+  "role": "company",
+  "name": "Clínica Dental Sonrisa Plena",
+  "rubro": "Salud",
+  "city": "Cochabamba",
+  "description": "Odontología general y ortodoncia, atención con cita previa.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c05",
+  "role": "company",
+  "name": "Librería Kilómetro Cero",
+  "rubro": "Comercio",
+  "city": "Cochabamba",
+  "description": "Librería independiente con libros nacionales y papelería.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c06",
+  "role": "company",
+  "name": "Inmobiliaria Valle Alto",
+  "rubro": "Inmobiliaria",
+  "city": "Cochabamba",
+  "description": "Venta y alquiler de departamentos y casas en el eje troncal.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c07",
+  "role": "company",
+  "name": "Gimnasio Fuerza Andina",
+  "rubro": "Deporte",
+  "city": "Cochabamba",
+  "description": "Gimnasio con clases grupales de funcional, spinning y yoga.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c08",
+  "role": "company",
+  "name": "Academia Futuro Brillante",
+  "rubro": "Educación",
+  "city": "Sacaba",
+  "description": "Refuerzo escolar e idiomas para primaria y secundaria.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c09",
+  "role": "company",
+  "name": "Distribuidora Quillacollo Norte",
+  "rubro": "Distribución",
+  "city": "Quillacollo",
+  "description": "Distribución de abarrotes a tiendas de barrio del valle.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c10",
+  "role": "company",
+  "name": "Vivero Verde Valle",
+  "rubro": "Jardinería",
+  "city": "Cochabamba",
+  "description": "Plantas, macetas y diseño de jardines para hogares.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c11",
+  "role": "company",
+  "name": "Estudio Contable Mercado y Asociados",
+  "rubro": "Servicios",
+  "city": "Cochabamba",
+  "description": "Contabilidad e impuestos para pequeñas empresas.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c12",
+  "role": "company",
+  "name": "Hostal Casa del Valle",
+  "rubro": "Turismo",
+  "city": "Cochabamba",
+  "description": "Hostal familiar de 14 habitaciones cerca de la plaza principal.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c13",
+  "role": "company",
+  "name": "Cervecería Artesanal Tarata",
+  "rubro": "Bebidas",
+  "city": "Tarata",
+  "description": "Cerveza artesanal de producción local con venta en bares.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c14",
+  "role": "company",
+  "name": "Ruta Andina Viajes",
+  "rubro": "Turismo",
+  "city": "Cochabamba",
+  "description": "Agencia con paquetes al Chapare, Torotoro y Salar de Uyuni.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c15",
+  "role": "company",
+  "name": "Veterinaria Huellas",
+  "rubro": "Salud animal",
+  "city": "Cochabamba",
+  "description": "Consultas, vacunas y peluquería para mascotas.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c16",
+  "role": "company",
+  "name": "Ferretería El Maestro",
+  "rubro": "Comercio",
+  "city": "Cochabamba",
+  "description": "Herramientas y materiales de construcción al por mayor y menor.",
+  "since": "2026-06-10"
+ },
+ {
+  "id": "u_c17",
+  "role": "company",
+  "name": "Panadería Sabor Cochala",
+  "rubro": "Gastronomía",
+  "city": "Cochabamba",
+  "description": "Panadería de barrio con pan de masa madre y pedidos para eventos.",
+  "since": "2026-09-01"
+ },
+ {
+  "id": "u_c18",
+  "role": "company",
+  "name": "Óptica Vista Clara",
+  "rubro": "Salud",
+  "city": "Cochabamba",
+  "description": "Examen visual, lentes y armazones con atención personalizada.",
+  "since": "2026-09-01"
+ },
+ {
+  "id": "u_c19",
+  "role": "company",
+  "name": "Taller Textil Ñawpa",
+  "rubro": "Moda",
+  "city": "Cochabamba",
+  "description": "Taller de prendas con tejidos y diseños inspirados en lo andino.",
+  "since": "2026-09-01"
+ },
+ {
+  "id": "u_c20",
+  "role": "company",
+  "name": "Cowork Plaza Colón",
+  "rubro": "Servicios",
+  "city": "Cochabamba",
+  "description": "Espacio de trabajo compartido con salas por hora y planes mensuales.",
+  "since": "2026-09-01"
+ }
+]

@@ -1,0 +1,102 @@
+[
+ {
+  "id": "agr_1",
+  "short": "Café Tunari",
+  "status": "activo",
+  "opportunity_id": "op_001",
+  "company_id": "u_c01",
+  "worker_id": "u_w1",
+  "title": "Café Tunari Roasters",
+  "versions": [
+   {
+    "v": 1,
+    "createdAt": "2026-11-16T10:00:00-04:00",
+    "scope": "Diseño de piezas para redes sociales y edición de videos cortos para la cafetería.",
+    "deliverables": [
+     {
+      "kind": "Diseño",
+      "qty": 8
+     },
+     {
+      "kind": "Video",
+      "qty": 4
+     }
+    ],
+    "total_cents": 65000,
+    "advance_cents": 20000,
+    "days": 15,
+    "revisions": 2,
+    "acceptance": "La empresa aprueba o pide cambios por escrito en el chat del acuerdo.",
+    "cancellation": "Si se cancela, se paga lo entregado y aprobado.",
+    "changes": "Todo cambio de alcance crea una versión nueva que ambas partes aceptan.",
+    "responsibilities": "La empresa entrega logo y fotos; la persona trabajadora entrega archivos editables.",
+    "acceptedBy": []
+   }
+  ]
+ },
+ {
+  "id": "agr_2",
+  "short": "Boutique Wayra",
+  "status": "activo",
+  "opportunity_id": "op_002",
+  "company_id": "u_c02",
+  "worker_id": "u_w1",
+  "title": "Boutique Wayra",
+  "versions": [
+   {
+    "v": 1,
+    "createdAt": "2026-11-18T10:00:00-04:00",
+    "scope": "Cinco diseños para las promociones de la tienda.",
+    "deliverables": [
+     {
+      "kind": "Diseño",
+      "qty": 5
+     }
+    ],
+    "total_cents": 50000,
+    "advance_cents": 15000,
+    "days": 5,
+    "revisions": 1,
+    "acceptance": "La empresa responde en el chat dentro de 48 horas.",
+    "cancellation": "",
+    "changes": "",
+    "responsibilities": "La empresa envía textos y fotos de producto.",
+    "acceptedBy": []
+   }
+  ]
+ },
+ {
+  "id": "agr_0",
+  "short": "Dulce Maíz",
+  "status": "cerrado",
+  "opportunity_id": null,
+  "company_id": "u_c03",
+  "worker_id": "u_w1",
+  "title": "Dulce Maíz Pastelería",
+  "versions": [
+   {
+    "v": 1,
+    "createdAt": "2026-10-06T10:00:00-04:00",
+    "scope": "Seis diseños de cajas y tarjetas para pedidos de pastelería.",
+    "deliverables": [
+     {
+      "kind": "Diseño",
+      "qty": 6
+     }
+    ],
+    "total_cents": 30000,
+    "advance_cents": 10000,
+    "days": 8,
+    "revisions": 2,
+    "acceptance": "La empresa aprueba por el chat.",
+    "cancellation": "Se paga lo entregado.",
+    "changes": "Todo cambio crea una versión nueva.",
+    "responsibilities": "La empresa envía el logo y los textos.",
+    "acceptedBy": [
+     "company",
+     "worker"
+    ]
+   }
+  ]
+ }
+]

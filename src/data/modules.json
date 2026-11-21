@@ -1,0 +1,50 @@
+[
+ {
+  "id": "perfil",
+  "label": "Perfil",
+  "short": "Tus datos y portafolio",
+  "color": "light"
+ },
+ {
+  "id": "cv",
+  "label": "CV con IA",
+  "short": "Genera tu CV",
+  "color": "white"
+ },
+ {
+  "id": "postulaciones",
+  "label": "Postulaciones",
+  "short": "Enviadas y guardadas",
+  "color": "mid"
+ },
+ {
+  "id": "acuerdos",
+  "label": "Acuerdos",
+  "short": "Versiones y entregables",
+  "color": "light"
+ },
+ {
+  "id": "pagos",
+  "label": "Pagos",
+  "short": "Anticipos y saldos",
+  "color": "white"
+ },
+ {
+  "id": "mensajes",
+  "label": "Mensajes",
+  "short": "Chat por acuerdo",
+  "color": "mid"
+ },
+ {
+  "id": "cuenta",
+  "label": "Cuenta",
+  "short": "Datos y privacidad",
+  "color": "light"
+ },
+ {
+  "id": "ayuda",
+  "label": "Ayuda",
+  "short": "Guía y demo",
+  "color": "white"
+ }
+]

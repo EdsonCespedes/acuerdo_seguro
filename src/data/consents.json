@@ -1,0 +1,20 @@
+[
+ {
+  "id": "cs_perfil",
+  "label": "Mostrar mi perfil a empresas",
+  "required": false,
+  "default": true
+ },
+ {
+  "id": "cs_avisos",
+  "label": "Recibir avisos de nuevas convocatorias",
+  "required": false,
+  "default": true
+ },
+ {
+  "id": "cs_terminos",
+  "label": "Acepto los términos de uso",
+  "required": true,
+  "default": true
+ }
+]

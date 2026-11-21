@@ -1,0 +1,26 @@
+[
+ {
+  "id": "diseno",
+  "name": "Diseño y video"
+ },
+ {
+  "id": "redes",
+  "name": "Redes sociales"
+ },
+ {
+  "id": "redaccion",
+  "name": "Redacción"
+ },
+ {
+  "id": "web",
+  "name": "Web y datos"
+ },
+ {
+  "id": "admin",
+  "name": "Administración"
+ },
+ {
+  "id": "formacion",
+  "name": "Clases y material"
+ }
+]

@@ -1,0 +1,49 @@
+[
+ {
+  "id": "del_1a",
+  "agreement_id": "agr_1",
+  "title": "8 diseños",
+  "state": "pendiente",
+  "history": []
+ },
+ {
+  "id": "del_1b",
+  "agreement_id": "agr_1",
+  "title": "4 videos",
+  "state": "pendiente",
+  "history": []
+ },
+ {
+  "id": "del_2a",
+  "agreement_id": "agr_2",
+  "title": "5 diseños",
+  "state": "pendiente",
+  "history": []
+ },
+ {
+  "id": "del_0a",
+  "agreement_id": "agr_0",
+  "title": "6 diseños",
+  "state": "aprobado",
+  "history": [
+   {
+    "from": "pendiente",
+    "to": "entregado",
+    "by": "worker",
+    "at": "2026-10-15T10:00:00-04:00"
+   },
+   {
+    "from": "entregado",
+    "to": "en_revision",
+    "by": "company",
+    "at": "2026-10-16T09:00:00-04:00"
+   },
+   {
+    "from": "en_revision",
+    "to": "aprobado",
+    "by": "company",
+    "at": "2026-10-17T09:00:00-04:00"
+   }
+  ]
+ }
+]

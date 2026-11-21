@@ -1,0 +1,82 @@
+[
+ {
+  "id": "pay_1a",
+  "agreement_id": "agr_1",
+  "kind": "Anticipo",
+  "amount_cents": 20000,
+  "state": "programado",
+  "due": "2026-11-25",
+  "history": []
+ },
+ {
+  "id": "pay_1b",
+  "agreement_id": "agr_1",
+  "kind": "Saldo",
+  "amount_cents": 45000,
+  "state": "programado",
+  "due": "2026-12-10",
+  "history": []
+ },
+ {
+  "id": "pay_2a",
+  "agreement_id": "agr_2",
+  "kind": "Anticipo",
+  "amount_cents": 15000,
+  "state": "programado",
+  "due": "2026-11-25",
+  "history": []
+ },
+ {
+  "id": "pay_2b",
+  "agreement_id": "agr_2",
+  "kind": "Saldo",
+  "amount_cents": 35000,
+  "state": "programado",
+  "due": "2026-12-02",
+  "history": []
+ },
+ {
+  "id": "pay_0a",
+  "agreement_id": "agr_0",
+  "kind": "Anticipo",
+  "amount_cents": 10000,
+  "state": "confirmado_receptor",
+  "due": "2026-10-08",
+  "history": [
+   {
+    "from": "programado",
+    "to": "reportado_pagador",
+    "by": "company",
+    "at": "2026-10-07T10:00:00-04:00"
+   },
+   {
+    "from": "reportado_pagador",
+    "to": "confirmado_receptor",
+    "by": "worker",
+    "at": "2026-10-07T14:00:00-04:00"
+   }
+  ]
+ },
+ {
+  "id": "pay_0b",
+  "agreement_id": "agr_0",
+  "kind": "Saldo",
+  "amount_cents": 20000,
+  "state": "confirmado_receptor",
+  "due": "2026-10-20",
+  "history": [
+   {
+    "from": "programado",
+    "to": "reportado_pagador",
+    "by": "company",
+    "at": "2026-10-19T10:00:00-04:00"
+   },
+   {
+    "from": "reportado_pagador",
+    "to": "confirmado_receptor",
+    "by": "worker",
+    "at": "2026-10-19T12:00:00-04:00"
+   }
+  ]
+ }
+]
