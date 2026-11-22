@@ -45,5 +45,26 @@
     "at": "2026-10-17T09:00:00-04:00"
    }
   ]
+ },
+ {
+  "id": "del_3a",
+  "agreement_id": "agr_3",
+  "title": "30 fotos",
+  "state": "pendiente",
+  "history": []
+ },
+ {
+  "id": "del_4a",
+  "agreement_id": "agr_4",
+  "title": "25 fotos",
+  "state": "pendiente",
+  "history": []
+ },
+ {
+  "id": "del_5a",
+  "agreement_id": "agr_5",
+  "title": "1 video de 30 s",
+  "state": "pendiente",
+  "history": []
  }
 ]

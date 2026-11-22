@@ -78,5 +78,59 @@
     "at": "2026-10-19T12:00:00-04:00"
    }
   ]
+ },
+ {
+  "id": "pay_3a",
+  "agreement_id": "agr_3",
+  "kind": "Anticipo",
+  "amount_cents": 15000,
+  "state": "programado",
+  "due": "2026-11-26",
+  "history": []
+ },
+ {
+  "id": "pay_3b",
+  "agreement_id": "agr_3",
+  "kind": "Saldo",
+  "amount_cents": 30000,
+  "state": "programado",
+  "due": "2026-12-12",
+  "history": []
+ },
+ {
+  "id": "pay_4a",
+  "agreement_id": "agr_4",
+  "kind": "Anticipo",
+  "amount_cents": 20000,
+  "state": "programado",
+  "due": "2026-11-27",
+  "history": []
+ },
+ {
+  "id": "pay_4b",
+  "agreement_id": "agr_4",
+  "kind": "Saldo",
+  "amount_cents": 50000,
+  "state": "programado",
+  "due": "2026-12-11",
+  "history": []
+ },
+ {
+  "id": "pay_5a",
+  "agreement_id": "agr_5",
+  "kind": "Anticipo",
+  "amount_cents": 10000,
+  "state": "programado",
+  "due": "2026-11-27",
+  "history": []
+ },
+ {
+  "id": "pay_5b",
+  "agreement_id": "agr_5",
+  "kind": "Saldo",
+  "amount_cents": 20000,
+  "state": "programado",
+  "due": "2026-12-05",
+  "history": []
  }
 ]

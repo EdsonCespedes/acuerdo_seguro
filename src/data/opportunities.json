@@ -1464,5 +1464,69 @@
   "posted": "2026-11-19",
   "deadline": "2026-12-23",
   "status": "abierta"
+ },
+ {
+  "id": "op_071",
+  "branch": "diseno",
+  "specialty": "Video corto",
+  "title": "Reels para el nuevo local",
+  "company_id": "u_c01",
+  "budget_cents": 55000,
+  "days": 10,
+  "modality": "Mixta",
+  "deliverables": [
+   "4 reels de 20 s"
+  ],
+  "skills": [
+   "Edición de video corto",
+   "Grabación con celular"
+  ],
+  "description": "Reels verticales para mostrar el nuevo local de la zona sur.",
+  "posted": "2026-11-20",
+  "deadline": "2026-12-08",
+  "status": "abierta"
+ },
+ {
+  "id": "op_072",
+  "branch": "web",
+  "specialty": "Diseño web",
+  "title": "Menú digital con código QR",
+  "company_id": "u_c01",
+  "budget_cents": 42000,
+  "days": 6,
+  "modality": "Remoto",
+  "deliverables": [
+   "1 menú digital",
+   "3 códigos QR"
+  ],
+  "skills": [
+   "Diseño para redes",
+   "Diseño web básico"
+  ],
+  "description": "Menú digital sencillo que se abre desde el celular con un QR.",
+  "posted": "2026-11-21",
+  "deadline": "2026-12-12",
+  "status": "abierta"
+ },
+ {
+  "id": "op_073",
+  "branch": "redaccion",
+  "specialty": "Textos comerciales",
+  "title": "Textos para la carta de invierno",
+  "company_id": "u_c01",
+  "budget_cents": 28000,
+  "days": 4,
+  "modality": "Remoto",
+  "deliverables": [
+   "12 descripciones de productos"
+  ],
+  "skills": [
+   "Redacción comercial",
+   "Redacción"
+  ],
+  "description": "Descripciones cortas y apetitosas para la carta de temporada.",
+  "posted": "2026-11-22",
+  "deadline": "2026-12-15",
+  "status": "abierta"
  }
 ]

@@ -36,7 +36,7 @@
  },
  {
   "id": "agr_2",
-  "short": "Boutique Wayra",
+  "short": "Wayra · Promos",
   "status": "activo",
   "opportunity_id": "op_002",
   "company_id": "u_c02",
@@ -96,6 +96,99 @@
      "company",
      "worker"
     ]
+   }
+  ]
+ },
+ {
+  "id": "agr_3",
+  "short": "Café Tunari",
+  "status": "activo",
+  "opportunity_id": "op_041",
+  "company_id": "u_c01",
+  "worker_id": "u_w9",
+  "title": "Café Tunari Roasters",
+  "versions": [
+   {
+    "v": 1,
+    "createdAt": "2026-11-19T10:00:00-04:00",
+    "scope": "Fotos editadas de los cafés de temporada para la carta y las redes.",
+    "deliverables": [
+     {
+      "kind": "Foto",
+      "qty": 30
+     }
+    ],
+    "total_cents": 45000,
+    "advance_cents": 15000,
+    "days": 7,
+    "revisions": 2,
+    "acceptance": "La empresa aprueba o pide cambios por escrito en el chat del acuerdo.",
+    "cancellation": "Si se cancela, se paga lo entregado y aprobado.",
+    "changes": "Todo cambio de alcance crea una versión nueva que ambas partes aceptan.",
+    "responsibilities": "La empresa prepara los productos; la persona entrega fotos editadas.",
+    "acceptedBy": []
+   }
+  ]
+ },
+ {
+  "id": "agr_4",
+  "short": "Café Tunari",
+  "status": "activo",
+  "opportunity_id": "op_010",
+  "company_id": "u_c01",
+  "worker_id": "u_w4",
+  "title": "Café Tunari Roasters",
+  "versions": [
+   {
+    "v": 1,
+    "createdAt": "2026-11-19T10:00:00-04:00",
+    "scope": "Sesión de fotos de la carta del café en el local.",
+    "deliverables": [
+     {
+      "kind": "Foto",
+      "qty": 25
+     }
+    ],
+    "total_cents": 70000,
+    "advance_cents": 20000,
+    "days": 5,
+    "revisions": 2,
+    "acceptance": "La empresa aprueba o pide cambios por escrito en el chat del acuerdo.",
+    "cancellation": "Si se cancela, se paga lo entregado y aprobado.",
+    "changes": "Todo cambio de alcance crea una versión nueva que ambas partes aceptan.",
+    "responsibilities": "La empresa abre el local para la sesión; la persona entrega las fotos.",
+    "acceptedBy": []
+   }
+  ]
+ },
+ {
+  "id": "agr_5",
+  "short": "Wayra · Video",
+  "status": "activo",
+  "opportunity_id": "op_003",
+  "company_id": "u_c02",
+  "worker_id": "u_w1",
+  "title": "Boutique Wayra",
+  "versions": [
+   {
+    "v": 1,
+    "createdAt": "2026-11-19T15:00:00-04:00",
+    "scope": "Video vertical de 30 segundos para mostrar la nueva línea de ropa.",
+    "deliverables": [
+     {
+      "kind": "Video",
+      "qty": 1
+     }
+    ],
+    "total_cents": 30000,
+    "advance_cents": 10000,
+    "days": 7,
+    "revisions": 2,
+    "acceptance": "La empresa responde en el chat dentro de 48 horas.",
+    "cancellation": "Si se cancela, se paga lo entregado.",
+    "changes": "Todo cambio crea una versión nueva.",
+    "responsibilities": "La empresa presta las prendas; la persona entrega el video editado.",
+    "acceptedBy": []
    }
   ]
  }

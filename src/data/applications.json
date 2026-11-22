@@ -3,7 +3,7 @@
   "id": "app_1",
   "opportunity_id": "op_003",
   "worker_id": "u_w1",
-  "status": "en revisión",
+  "status": "aceptada",
   "createdAt": "2026-11-18T15:20:00-04:00"
  },
  {
@@ -52,7 +52,7 @@
   "id": "app_8",
   "opportunity_id": "op_041",
   "worker_id": "u_w9",
-  "status": "enviada",
+  "status": "aceptada",
   "createdAt": "2026-11-20T10:00:00-04:00"
  },
  {
@@ -79,7 +79,7 @@
  {
   "id": "app_12",
   "opportunity_id": "op_001",
-  "worker_id": "u_w7",
+  "worker_id": "u_w23",
   "status": "preseleccionada",
   "createdAt": "2026-11-19T16:00:00-04:00"
  },
@@ -89,5 +89,299 @@
   "worker_id": "u_w12",
   "status": "enviada",
   "createdAt": "2026-11-21T09:05:00-04:00"
+ },
+ {
+  "id": "app_14",
+  "opportunity_id": "op_001",
+  "worker_id": "u_w1",
+  "status": "aceptada",
+  "createdAt": "2026-11-12T09:00:00-04:00"
+ },
+ {
+  "id": "app_15",
+  "opportunity_id": "op_002",
+  "worker_id": "u_w1",
+  "status": "aceptada",
+  "createdAt": "2026-11-17T10:00:00-04:00"
+ },
+ {
+  "id": "app_16",
+  "opportunity_id": "op_010",
+  "worker_id": "u_w4",
+  "status": "aceptada",
+  "createdAt": "2026-11-16T14:00:00-04:00"
+ },
+ {
+  "id": "app_17",
+  "opportunity_id": "op_071",
+  "worker_id": "u_w12",
+  "status": "enviada",
+  "createdAt": "2026-11-22T08:30:00-04:00"
+ },
+ {
+  "id": "app_18",
+  "opportunity_id": "op_071",
+  "worker_id": "u_w1",
+  "status": "enviada",
+  "createdAt": "2026-11-22T09:10:00-04:00"
+ },
+ {
+  "id": "app_19",
+  "opportunity_id": "op_073",
+  "worker_id": "u_w7",
+  "status": "en revisión",
+  "createdAt": "2026-11-22T09:40:00-04:00"
+ },
+ {
+  "id": "app_20",
+  "opportunity_id": "op_001",
+  "worker_id": "u_w26",
+  "status": "en revisión",
+  "createdAt": "2026-11-13T10:20:00-04:00"
+ },
+ {
+  "id": "app_21",
+  "opportunity_id": "op_001",
+  "worker_id": "u_w34",
+  "status": "enviada",
+  "createdAt": "2026-11-18T16:40:00-04:00"
+ },
+ {
+  "id": "app_22",
+  "opportunity_id": "op_001",
+  "worker_id": "u_w31",
+  "status": "enviada",
+  "createdAt": "2026-11-20T09:15:00-04:00"
+ },
+ {
+  "id": "app_23",
+  "opportunity_id": "op_001",
+  "worker_id": "u_w37",
+  "status": "enviada",
+  "createdAt": "2026-11-21T14:05:00-04:00"
+ },
+ {
+  "id": "app_24",
+  "opportunity_id": "op_010",
+  "worker_id": "u_w27",
+  "status": "en revisión",
+  "createdAt": "2026-11-19T17:30:00-04:00"
+ },
+ {
+  "id": "app_25",
+  "opportunity_id": "op_010",
+  "worker_id": "u_w36",
+  "status": "enviada",
+  "createdAt": "2026-11-20T11:10:00-04:00"
+ },
+ {
+  "id": "app_26",
+  "opportunity_id": "op_010",
+  "worker_id": "u_w9",
+  "status": "enviada",
+  "createdAt": "2026-11-20T18:45:00-04:00"
+ },
+ {
+  "id": "app_27",
+  "opportunity_id": "op_010",
+  "worker_id": "u_w23",
+  "status": "enviada",
+  "createdAt": "2026-11-21T10:30:00-04:00"
+ },
+ {
+  "id": "app_28",
+  "opportunity_id": "op_023",
+  "worker_id": "u_w14",
+  "status": "en revisión",
+  "createdAt": "2026-11-20T15:00:00-04:00"
+ },
+ {
+  "id": "app_29",
+  "opportunity_id": "op_023",
+  "worker_id": "u_w25",
+  "status": "enviada",
+  "createdAt": "2026-11-21T08:50:00-04:00"
+ },
+ {
+  "id": "app_30",
+  "opportunity_id": "op_023",
+  "worker_id": "u_w33",
+  "status": "preseleccionada",
+  "createdAt": "2026-11-21T12:25:00-04:00"
+ },
+ {
+  "id": "app_31",
+  "opportunity_id": "op_041",
+  "worker_id": "u_w27",
+  "status": "preseleccionada",
+  "createdAt": "2026-11-19T09:35:00-04:00"
+ },
+ {
+  "id": "app_32",
+  "opportunity_id": "op_041",
+  "worker_id": "u_w36",
+  "status": "en revisión",
+  "createdAt": "2026-11-19T15:15:00-04:00"
+ },
+ {
+  "id": "app_33",
+  "opportunity_id": "op_041",
+  "worker_id": "u_w34",
+  "status": "enviada",
+  "createdAt": "2026-11-20T13:20:00-04:00"
+ },
+ {
+  "id": "app_34",
+  "opportunity_id": "op_041",
+  "worker_id": "u_w4",
+  "status": "enviada",
+  "createdAt": "2026-11-21T09:00:00-04:00"
+ },
+ {
+  "id": "app_35",
+  "opportunity_id": "op_042",
+  "worker_id": "u_w32",
+  "status": "preseleccionada",
+  "createdAt": "2026-11-19T14:30:00-04:00"
+ },
+ {
+  "id": "app_36",
+  "opportunity_id": "op_042",
+  "worker_id": "u_w28",
+  "status": "en revisión",
+  "createdAt": "2026-11-20T10:05:00-04:00"
+ },
+ {
+  "id": "app_37",
+  "opportunity_id": "op_042",
+  "worker_id": "u_w2",
+  "status": "enviada",
+  "createdAt": "2026-11-20T16:10:00-04:00"
+ },
+ {
+  "id": "app_38",
+  "opportunity_id": "op_042",
+  "worker_id": "u_w21",
+  "status": "enviada",
+  "createdAt": "2026-11-21T11:45:00-04:00"
+ },
+ {
+  "id": "app_39",
+  "opportunity_id": "op_042",
+  "worker_id": "u_w20",
+  "status": "enviada",
+  "createdAt": "2026-11-21T17:20:00-04:00"
+ },
+ {
+  "id": "app_40",
+  "opportunity_id": "op_042",
+  "worker_id": "u_w26",
+  "status": "enviada",
+  "createdAt": "2026-11-22T08:05:00-04:00"
+ },
+ {
+  "id": "app_41",
+  "opportunity_id": "op_071",
+  "worker_id": "u_w29",
+  "status": "en revisión",
+  "createdAt": "2026-11-20T18:10:00-04:00"
+ },
+ {
+  "id": "app_42",
+  "opportunity_id": "op_071",
+  "worker_id": "u_w26",
+  "status": "enviada",
+  "createdAt": "2026-11-21T09:40:00-04:00"
+ },
+ {
+  "id": "app_43",
+  "opportunity_id": "op_071",
+  "worker_id": "u_w31",
+  "status": "enviada",
+  "createdAt": "2026-11-21T19:00:00-04:00"
+ },
+ {
+  "id": "app_44",
+  "opportunity_id": "op_071",
+  "worker_id": "u_w37",
+  "status": "enviada",
+  "createdAt": "2026-11-22T07:55:00-04:00"
+ },
+ {
+  "id": "app_45",
+  "opportunity_id": "op_071",
+  "worker_id": "u_w4",
+  "status": "enviada",
+  "createdAt": "2026-11-22T09:30:00-04:00"
+ },
+ {
+  "id": "app_46",
+  "opportunity_id": "op_072",
+  "worker_id": "u_w30",
+  "status": "en revisión",
+  "createdAt": "2026-11-21T13:30:00-04:00"
+ },
+ {
+  "id": "app_47",
+  "opportunity_id": "op_072",
+  "worker_id": "u_w24",
+  "status": "enviada",
+  "createdAt": "2026-11-21T16:15:00-04:00"
+ },
+ {
+  "id": "app_48",
+  "opportunity_id": "op_072",
+  "worker_id": "u_w8",
+  "status": "enviada",
+  "createdAt": "2026-11-22T08:20:00-04:00"
+ },
+ {
+  "id": "app_49",
+  "opportunity_id": "op_072",
+  "worker_id": "u_w3",
+  "status": "enviada",
+  "createdAt": "2026-11-22T09:05:00-04:00"
+ },
+ {
+  "id": "app_50",
+  "opportunity_id": "op_072",
+  "worker_id": "u_w32",
+  "status": "enviada",
+  "createdAt": "2026-11-22T10:10:00-04:00"
+ },
+ {
+  "id": "app_51",
+  "opportunity_id": "op_072",
+  "worker_id": "u_w13",
+  "status": "enviada",
+  "createdAt": "2026-11-22T10:50:00-04:00"
+ },
+ {
+  "id": "app_52",
+  "opportunity_id": "op_073",
+  "worker_id": "u_w28",
+  "status": "enviada",
+  "createdAt": "2026-11-22T08:15:00-04:00"
+ },
+ {
+  "id": "app_53",
+  "opportunity_id": "op_073",
+  "worker_id": "u_w21",
+  "status": "enviada",
+  "createdAt": "2026-11-22T09:00:00-04:00"
+ },
+ {
+  "id": "app_54",
+  "opportunity_id": "op_073",
+  "worker_id": "u_w35",
+  "status": "enviada",
+  "createdAt": "2026-11-22T10:20:00-04:00"
+ },
+ {
+  "id": "app_55",
+  "opportunity_id": "op_073",
+  "worker_id": "u_w2",
+  "status": "enviada",
+  "createdAt": "2026-11-22T10:45:00-04:00"
  }
 ]

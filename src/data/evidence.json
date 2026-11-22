@@ -4,20 +4,39 @@
   "title": "Afiches de la Feria Universitaria 2025",
   "url": "",
   "kind": "Diseño",
-  "createdAt": "2026-09-20T10:00:00-04:00"
+  "createdAt": "2026-09-20T10:00:00-04:00",
+  "user_id": "u_w1"
  },
  {
   "id": "ev_2",
   "title": "Menú ilustrado para puesto de comida",
   "url": "",
   "kind": "Diseño",
-  "createdAt": "2026-09-22T16:30:00-04:00"
+  "createdAt": "2026-09-22T16:30:00-04:00",
+  "user_id": "u_w1"
  },
  {
   "id": "ev_3",
   "title": "Reel de receta de api con pastel",
   "url": "",
   "kind": "Video",
-  "createdAt": "2026-10-02T12:10:00-04:00"
+  "createdAt": "2026-10-02T12:10:00-04:00",
+  "user_id": "u_w1"
+ },
+ {
+  "id": "ev_4",
+  "user_id": "u_w1",
+  "title": "Fotos de platos para un puesto de la Cancha",
+  "url": "",
+  "kind": "Otro",
+  "createdAt": "2026-10-12T15:00:00-04:00"
+ },
+ {
+  "id": "ev_5",
+  "user_id": "u_w1",
+  "title": "Serie de historias para una pastelería",
+  "url": "",
+  "kind": "Diseño",
+  "createdAt": "2026-10-28T11:20:00-04:00"
  }
 ]

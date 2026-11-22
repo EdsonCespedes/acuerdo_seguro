@@ -47,5 +47,47 @@
   "from": "company",
   "text": "Quedaron muy bien, gracias. Los aprobé.",
   "at": "2026-10-17T09:10:00-04:00"
+ },
+ {
+  "id": "m8",
+  "agreement_id": "agr_3",
+  "from": "company",
+  "text": "Hola Daniela, el jueves tenemos los cafés de temporada listos.",
+  "at": "2026-11-19T10:30:00-04:00"
+ },
+ {
+  "id": "m9",
+  "agreement_id": "agr_3",
+  "from": "worker",
+  "text": "Perfecto, llevo luz y fondos. ¿A qué hora te conviene?",
+  "at": "2026-11-19T11:10:00-04:00"
+ },
+ {
+  "id": "m10",
+  "agreement_id": "agr_4",
+  "from": "company",
+  "text": "Hola Marco, la sesión sería el lunes temprano, antes de abrir.",
+  "at": "2026-11-19T12:00:00-04:00"
+ },
+ {
+  "id": "m11",
+  "agreement_id": "agr_4",
+  "from": "worker",
+  "text": "Genial, llego a las 7:00 con el equipo.",
+  "at": "2026-11-19T12:40:00-04:00"
+ },
+ {
+  "id": "m12",
+  "agreement_id": "agr_5",
+  "from": "company",
+  "text": "Hola Camila, las prendas están listas para grabar esta semana.",
+  "at": "2026-11-19T15:20:00-04:00"
+ },
+ {
+  "id": "m13",
+  "agreement_id": "agr_5",
+  "from": "worker",
+  "text": "Genial, puedo ir el jueves por la tarde.",
+  "at": "2026-11-19T16:00:00-04:00"
  }
 ]

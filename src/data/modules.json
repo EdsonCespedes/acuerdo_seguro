@@ -3,37 +3,61 @@
   "id": "perfil",
   "label": "Perfil",
   "short": "Tus datos y portafolio",
-  "color": "light"
+  "color": "light",
+  "alt": {
+   "label": "Perfil",
+   "short": "Datos de tu empresa"
+  }
  },
  {
   "id": "cv",
   "label": "CV con IA",
   "short": "Genera tu CV",
-  "color": "white"
+  "color": "white",
+  "alt": {
+   "label": "Preselección IA",
+   "short": "Mejores postulantes"
+  }
  },
  {
   "id": "postulaciones",
   "label": "Postulaciones",
   "short": "Enviadas y guardadas",
-  "color": "mid"
+  "color": "mid",
+  "alt": {
+   "label": "Postulaciones",
+   "short": "Las que recibiste"
+  }
  },
  {
   "id": "acuerdos",
   "label": "Acuerdos",
   "short": "Versiones y entregables",
-  "color": "light"
+  "color": "light",
+  "alt": {
+   "label": "Acuerdos",
+   "short": "Con tu equipo"
+  }
  },
  {
   "id": "pagos",
   "label": "Pagos",
   "short": "Anticipos y saldos",
-  "color": "white"
+  "color": "white",
+  "alt": {
+   "label": "Pagos",
+   "short": "Lo que pagas"
+  }
  },
  {
   "id": "mensajes",
   "label": "Mensajes",
   "short": "Chat por acuerdo",
-  "color": "mid"
+  "color": "mid",
+  "alt": {
+   "label": "Mensajes",
+   "short": "Chat con tu equipo"
+  }
  },
  {
   "id": "cuenta",
@@ -46,5 +70,12 @@
   "label": "Ayuda",
   "short": "Guía y demo",
   "color": "white"
+ },
+ {
+  "id": "publicar",
+  "label": "Crear oferta",
+  "short": "Publica una convocatoria",
+  "color": "light",
+  "role": "company"
  }
 ]

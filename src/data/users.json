@@ -23,7 +23,8 @@
    "Afiches y reels para la Feria Universitaria 2025",
    "Diseño de menú para un puesto de comida en la Cancha",
    "Edición de videos para un canal de cocina"
-  ]
+  ],
+  "gender": "mujer"
  },
  {
   "id": "u_w2",
@@ -43,7 +44,8 @@
   "availability": "25 horas por semana",
   "modality": "Remoto",
   "rate_bs": 35,
-  "experience": []
+  "experience": [],
+  "gender": "varón"
  },
  {
   "id": "u_w3",
@@ -63,13 +65,14 @@
   "availability": "15 horas por semana",
   "modality": "Mixta",
   "rate_bs": 50,
-  "experience": []
+  "experience": [],
+  "gender": "mujer"
  },
  {
   "id": "u_w4",
   "role": "worker",
   "name": "Marco Villarroel Arce",
-  "city": "Cochabamba",
+  "city": "Quillacollo",
   "since": "2026-10-05",
   "headline": "Fotografía de producto y video",
   "skills": [
@@ -83,7 +86,8 @@
   "availability": "Fines de semana",
   "modality": "Presencial",
   "rate_bs": 45,
-  "experience": []
+  "experience": [],
+  "gender": "varón"
  },
  {
   "id": "u_w5",
@@ -103,7 +107,8 @@
   "availability": "20 horas por semana",
   "modality": "Remoto",
   "rate_bs": 38,
-  "experience": []
+  "experience": [],
+  "gender": "mujer"
  },
  {
   "id": "u_w6",
@@ -124,7 +129,8 @@
   "availability": "20 horas por semana",
   "modality": "Remoto",
   "rate_bs": 45,
-  "experience": []
+  "experience": [],
+  "gender": "varón"
  },
  {
   "id": "u_w7",
@@ -145,7 +151,8 @@
   "availability": "25 horas por semana",
   "modality": "Remoto",
   "rate_bs": 35,
-  "experience": []
+  "experience": [],
+  "gender": "mujer"
  },
  {
   "id": "u_w8",
@@ -166,7 +173,8 @@
   "availability": "20 horas por semana",
   "modality": "Remoto",
   "rate_bs": 55,
-  "experience": []
+  "experience": [],
+  "gender": "varón"
  },
  {
   "id": "u_w9",
@@ -186,13 +194,14 @@
   "availability": "Fines de semana",
   "modality": "Presencial",
   "rate_bs": 45,
-  "experience": []
+  "experience": [],
+  "gender": "mujer"
  },
  {
   "id": "u_w10",
   "role": "worker",
   "name": "Rodrigo Antezana Lara",
-  "city": "Quillacollo",
+  "city": "Tiquipaya",
   "since": "2026-10-05",
   "headline": "Planillas y reportes en Excel para negocios",
   "skills": [
@@ -207,7 +216,8 @@
   "availability": "15 horas por semana",
   "modality": "Mixta",
   "rate_bs": 50,
-  "experience": []
+  "experience": [],
+  "gender": "varón"
  },
  {
   "id": "u_w11",
@@ -228,13 +238,14 @@
   "availability": "15 horas por semana",
   "modality": "Presencial",
   "rate_bs": 40,
-  "experience": []
+  "experience": [],
+  "gender": "mujer"
  },
  {
   "id": "u_w12",
   "role": "worker",
   "name": "Gonzalo Rocha Pinto",
-  "city": "Cochabamba",
+  "city": "Quillacollo",
   "since": "2026-10-07",
   "headline": "Grabación y edición de reels con el celular",
   "skills": [
@@ -248,7 +259,8 @@
   "availability": "20 horas por semana",
   "modality": "Mixta",
   "rate_bs": 40,
-  "experience": []
+  "experience": [],
+  "gender": "varón"
  },
  {
   "id": "u_w13",
@@ -269,7 +281,8 @@
   "availability": "25 horas por semana",
   "modality": "Remoto",
   "rate_bs": 38,
-  "experience": []
+  "experience": [],
+  "gender": "mujer"
  },
  {
   "id": "u_w14",
@@ -290,7 +303,8 @@
   "availability": "20 horas por semana",
   "modality": "Remoto",
   "rate_bs": 48,
-  "experience": []
+  "experience": [],
+  "gender": "varón"
  },
  {
   "id": "u_w15",
@@ -311,7 +325,8 @@
   "availability": "20 horas por semana",
   "modality": "Remoto",
   "rate_bs": 42,
-  "experience": []
+  "experience": [],
+  "gender": "mujer"
  },
  {
   "id": "u_w16",
@@ -332,7 +347,8 @@
   "availability": "Fines de semana",
   "modality": "Mixta",
   "rate_bs": 45,
-  "experience": []
+  "experience": [],
+  "gender": "varón"
  },
  {
   "id": "u_w17",
@@ -353,7 +369,8 @@
   "availability": "25 horas por semana",
   "modality": "Remoto",
   "rate_bs": 34,
-  "experience": []
+  "experience": [],
+  "gender": "mujer"
  },
  {
   "id": "u_w18",
@@ -374,13 +391,14 @@
   "availability": "15 horas por semana",
   "modality": "Remoto",
   "rate_bs": 60,
-  "experience": []
+  "experience": [],
+  "gender": "varón"
  },
  {
   "id": "u_w19",
   "role": "worker",
   "name": "Lorena Baptista Cruz",
-  "city": "Cochabamba",
+  "city": "Tiquipaya",
   "since": "2026-10-14",
   "headline": "Ilustración digital para marcas y cuentos infantiles",
   "skills": [
@@ -395,7 +413,8 @@
   "availability": "20 horas por semana",
   "modality": "Remoto",
   "rate_bs": 50,
-  "experience": []
+  "experience": [],
+  "gender": "mujer"
  },
  {
   "id": "u_w20",
@@ -416,7 +435,8 @@
   "availability": "20 horas por semana",
   "modality": "Mixta",
   "rate_bs": 36,
-  "experience": []
+  "experience": [],
+  "gender": "varón"
  },
  {
   "id": "u_w21",
@@ -437,13 +457,14 @@
   "availability": "20 horas por semana",
   "modality": "Remoto",
   "rate_bs": 38,
-  "experience": []
+  "experience": [],
+  "gender": "mujer"
  },
  {
   "id": "u_w22",
   "role": "worker",
   "name": "Mauricio Delgadillo Sejas",
-  "city": "Cochabamba",
+  "city": "Sacaba",
   "since": "2026-10-17",
   "headline": "Digitación, inventarios y soporte básico",
   "skills": [
@@ -458,7 +479,8 @@
   "availability": "30 horas por semana",
   "modality": "Presencial",
   "rate_bs": 30,
-  "experience": []
+  "experience": [],
+  "gender": "varón"
  },
  {
   "id": "u_w23",
@@ -479,13 +501,14 @@
   "availability": "20 horas por semana",
   "modality": "Mixta",
   "rate_bs": 42,
-  "experience": []
+  "experience": [],
+  "gender": "mujer"
  },
  {
   "id": "u_w24",
   "role": "worker",
   "name": "Tomás Aguilar Prado",
-  "city": "Cochabamba",
+  "city": "Vinto",
   "since": "2026-10-19",
   "headline": "Diseño web y mantenimiento de sitios",
   "skills": [
@@ -500,7 +523,8 @@
   "availability": "20 horas por semana",
   "modality": "Remoto",
   "rate_bs": 58,
-  "experience": []
+  "experience": [],
+  "gender": "varón"
  },
  {
   "id": "u_w25",
@@ -521,7 +545,8 @@
   "availability": "20 horas por semana",
   "modality": "Remoto",
   "rate_bs": 40,
-  "experience": []
+  "experience": [],
+  "gender": "mujer"
  },
  {
   "id": "u_c01",
@@ -702,5 +727,305 @@
   "city": "Cochabamba",
   "description": "Espacio de trabajo compartido con salas por hora y planes mensuales.",
   "since": "2026-09-01"
+ },
+ {
+  "id": "u_w26",
+  "role": "worker",
+  "name": "Ximena Alanoca Rojas",
+  "city": "Cochabamba",
+  "since": "2026-10-03",
+  "headline": "Diseño de redes y reels para cafeterías y restaurantes",
+  "skills": [
+   "Diseño para redes",
+   "Edición de video corto",
+   "Planificación de contenido"
+  ],
+  "tools": [
+   "Canva",
+   "CapCut",
+   "Meta Business"
+  ],
+  "availability": "25 horas por semana",
+  "modality": "Mixta",
+  "rate_bs": 42,
+  "experience": [
+   "Reels y piezas mensuales para una cafetería de la zona norte",
+   "Calendario de redes para un restaurante de comida típica"
+  ],
+  "gender": "mujer"
+ },
+ {
+  "id": "u_w27",
+  "role": "worker",
+  "name": "Álvaro Ríos Calizaya",
+  "city": "Cochabamba",
+  "since": "2026-09-28",
+  "headline": "Fotografía gastronómica y retoque de platos y bebidas",
+  "skills": [
+   "Fotografía de producto",
+   "Edición de fotos",
+   "Fotografía gastronómica"
+  ],
+  "tools": [
+   "Lightroom",
+   "Photoshop"
+  ],
+  "availability": "Fines de semana",
+  "modality": "Presencial",
+  "rate_bs": 50,
+  "experience": [
+   "Fotos de carta para dos restaurantes del Prado",
+   "Catálogo de postres para una pastelería",
+   "Sesión de bebidas para una cafetería de especialidad"
+  ],
+  "gender": "varón"
+ },
+ {
+  "id": "u_w28",
+  "role": "worker",
+  "name": "Sofía Camacho Terceros",
+  "city": "Cochabamba",
+  "since": "2026-10-11",
+  "headline": "Redacción para redes, cartas y catálogos de productos",
+  "skills": [
+   "Redacción comercial",
+   "Redacción",
+   "Planificación de contenido"
+  ],
+  "tools": [
+   "Notion",
+   "Google Docs"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 36,
+  "experience": [
+   "Descripciones de menú para un restaurante",
+   "Textos de catálogo para una tienda de ropa"
+  ],
+  "gender": "mujer"
+ },
+ {
+  "id": "u_w29",
+  "role": "worker",
+  "name": "Cristian Vargas Mejía",
+  "city": "Cochabamba",
+  "since": "2026-09-19",
+  "headline": "Grabación y edición de video para locales y eventos",
+  "skills": [
+   "Grabación con celular",
+   "Edición de video corto",
+   "Edición de video"
+  ],
+  "tools": [
+   "DaVinci Resolve",
+   "CapCut"
+  ],
+  "availability": "25 horas por semana",
+  "modality": "Mixta",
+  "rate_bs": 48,
+  "experience": [
+   "Video de inauguración de un gimnasio",
+   "Reels de platos para un restaurante",
+   "Cobertura de un festival universitario"
+  ],
+  "gender": "varón"
+ },
+ {
+  "id": "u_w30",
+  "role": "worker",
+  "name": "Brenda Salinas Cáceres",
+  "city": "Cochabamba",
+  "since": "2026-10-06",
+  "headline": "Diseño web sencillo y menús digitales para negocios",
+  "skills": [
+   "Diseño web básico",
+   "HTML y CSS",
+   "Diseño para redes"
+  ],
+  "tools": [
+   "Figma",
+   "WordPress"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 52,
+  "experience": [
+   "Menú digital con QR para una pizzería",
+   "Página de presentación para una peluquería"
+  ],
+  "gender": "mujer"
+ },
+ {
+  "id": "u_w31",
+  "role": "worker",
+  "name": "Jhonny Tapia Coca",
+  "city": "Quillacollo",
+  "since": "2026-11-02",
+  "headline": "Fotos y videos cortos con celular para tiendas y puestos",
+  "skills": [
+   "Fotografía con celular",
+   "Grabación con celular",
+   "Edición de video corto"
+  ],
+  "tools": [
+   "CapCut",
+   "Snapseed"
+  ],
+  "availability": "15 horas por semana",
+  "modality": "Presencial",
+  "rate_bs": 30,
+  "experience": [],
+  "gender": "varón"
+ },
+ {
+  "id": "u_w32",
+  "role": "worker",
+  "name": "Mónica Aguirre Zeballos",
+  "city": "Cochabamba",
+  "since": "2026-08-21",
+  "headline": "Community manager de cafeterías y restaurantes",
+  "skills": [
+   "Planificación de contenido",
+   "Diseño para redes",
+   "Redacción comercial"
+  ],
+  "tools": [
+   "Meta Business",
+   "Canva",
+   "Notion"
+  ],
+  "availability": "30 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 40,
+  "experience": [
+   "Redes de una cafetería de especialidad durante un año",
+   "Campaña de Navidad para un restaurante",
+   "Calendario mensual para una panadería"
+  ],
+  "gender": "mujer"
+ },
+ {
+  "id": "u_w33",
+  "role": "worker",
+  "name": "Raúl Gumiel Orellana",
+  "city": "Cochabamba",
+  "since": "2026-09-09",
+  "headline": "Traducción comercial y técnica inglés-español",
+  "skills": [
+   "Traducción",
+   "Inglés",
+   "Redacción comercial"
+  ],
+  "tools": [
+   "DeepL",
+   "Google Docs"
+  ],
+  "availability": "15 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 45,
+  "experience": [
+   "Carta de un hotel en inglés",
+   "Fichas técnicas de productos importados"
+  ],
+  "gender": "varón"
+ },
+ {
+  "id": "u_w34",
+  "role": "worker",
+  "name": "Pamela Arnez Durán",
+  "city": "Sacaba",
+  "since": "2026-10-17",
+  "headline": "Edición de fotos y diseño de promociones para tiendas",
+  "skills": [
+   "Edición de fotos",
+   "Diseño para redes",
+   "Diseño gráfico"
+  ],
+  "tools": [
+   "Photoshop",
+   "Canva",
+   "Lightroom"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Mixta",
+  "rate_bs": 38,
+  "experience": [
+   "Retoque de fotos para una tienda de calzado"
+  ],
+  "gender": "mujer"
+ },
+ {
+  "id": "u_w35",
+  "role": "worker",
+  "name": "Wálter Choque Mamani",
+  "city": "Cochabamba",
+  "since": "2026-10-25",
+  "headline": "Redacción de notas, boletines y comunicados",
+  "skills": [
+   "Redacción",
+   "Comunicación escrita"
+  ],
+  "tools": [
+   "Google Docs",
+   "Mailchimp"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 32,
+  "experience": [
+   "Boletín mensual de una asociación de comerciantes",
+   "Notas para el periódico de una universidad"
+  ],
+  "gender": "varón"
+ },
+ {
+  "id": "u_w36",
+  "role": "worker",
+  "name": "Fabiola Montaño Salazar",
+  "city": "Cochabamba",
+  "since": "2026-09-30",
+  "headline": "Fotografía de producto y bodegones para catálogos",
+  "skills": [
+   "Fotografía de producto",
+   "Edición de fotos"
+  ],
+  "tools": [
+   "Lightroom",
+   "Capture One"
+  ],
+  "availability": "15 horas por semana",
+  "modality": "Mixta",
+  "rate_bs": 55,
+  "experience": [
+   "Catálogo de joyería artesanal",
+   "Fotos de producto para una tienda en línea"
+  ],
+  "gender": "mujer"
+ },
+ {
+  "id": "u_w37",
+  "role": "worker",
+  "name": "Luis Fernando Ayaviri Mollo",
+  "city": "Cochabamba",
+  "since": "2026-10-14",
+  "headline": "Animación y motion graphics para reels y anuncios",
+  "skills": [
+   "Edición de video corto",
+   "Animación",
+   "Diseño para redes"
+  ],
+  "tools": [
+   "After Effects",
+   "CapCut"
+  ],
+  "availability": "20 horas por semana",
+  "modality": "Remoto",
+  "rate_bs": 60,
+  "experience": [
+   "Intro animada para un canal de cocina",
+   "Anuncios animados para una tienda de ropa"
+  ],
+  "gender": "varón"
  }
 ]
