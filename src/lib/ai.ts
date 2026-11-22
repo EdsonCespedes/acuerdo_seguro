@@ -7,7 +7,7 @@ export const aiReady = !!KEY
 
 const clean = (t: string) => t.replace(/<think>[\s\S]*?<\/think>/g, '').trim()
 
-async function call(model: string, system: string, user: string): Promise<string> {
+async function call(model: string, system: string, user: string, maxTokens: number): Promise<string> {
   const ctl = new AbortController()
   const timer = setTimeout(() => ctl.abort(), 45000)
   try {
@@ -15,7 +15,7 @@ async function call(model: string, system: string, user: string): Promise<string
       method: 'POST',
       signal: ctl.signal,
       headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${KEY}`, 'X-Title': 'Acuerdo Seguro' },
-      body: JSON.stringify({ model, max_tokens: 2000, temperature: 0.4, messages: [{ role: 'system', content: system }, { role: 'user', content: user }] }),
+      body: JSON.stringify({ model, max_tokens: maxTokens, temperature: 0.4, messages: [{ role: 'system', content: system }, { role: 'user', content: user }] }),
     })
     if (!res.ok) throw new Error(String(res.status))
     const data = await res.json()
@@ -25,11 +25,11 @@ async function call(model: string, system: string, user: string): Promise<string
   } finally { clearTimeout(timer) }
 }
 
-export async function askAi(system: string, user: string): Promise<string> {
+export async function askAi(system: string, user: string, opts: { maxTokens?: number } = {}): Promise<string> {
   if (!KEY) throw new Error('no key')
   let last: unknown
   for (const m of MODELS) {
-    try { return await call(m, system, user) } catch (e) { last = e }
+    try { return await call(m, system, user, opts.maxTokens ?? 2000) } catch (e) { last = e }
   }
   throw last
 }

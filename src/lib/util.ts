@@ -1,7 +1,11 @@
 export type Vec3 = [number, number, number]
 
-export const ME = 'u_w1'
-export const CO = 'u_c01'
+export let ME = '__none__'
+export let CO = '__none__'
+export function setSession(u: { id: string; role: string }) {
+  ME = u.role === 'worker' ? u.id : '__none__'
+  CO = u.role === 'company' ? u.id : '__none__'
+}
 
 export const fmtBs = (cents: number) =>
   'Bs ' + (cents / 100).toLocaleString('es-BO', { minimumFractionDigits: 0, maximumFractionDigits: 2 })
@@ -55,3 +59,7 @@ export const shortTitle = (t = '', n = 22) => {
   while (out.length > 1 && STOP.has(norm(out[out.length - 1]))) out.pop()
   return out.join(' ') || t.slice(0, n - 1).trimEnd() + '…'
 }
+
+export const modLabel = (m: any, role: string) => (role === 'company' && m.alt ? m.alt.label : m.label)
+export const modShort = (m: any, role: string) => (role === 'company' && m.alt ? m.alt.short : m.short)
+export const modulesFor = (mods: any[], role: string) => mods.filter((m) => !m.role || m.role === role)

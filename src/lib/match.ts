@@ -12,12 +12,17 @@ const cover = (need: Set<string>, have: Set<string>) => {
   return n / need.size
 }
 
-export function oppScore(user: any, opp: any): number {
-  if (!user || !opp) return 0
+export function oppParts(user: any, opp: any): { exact: number; soft: number } {
+  if (!user || !opp) return { exact: 0, soft: 0 }
   const have = new Set<string>((user.skills || []).map((s: string) => norm(s)))
   const need: string[] = opp.skills || []
   const exact = need.length ? need.filter((s) => have.has(norm(s))).length / need.length : 0
   const soft = cover(stems([...need, opp.specialty, opp.title]), stems([...(user.skills || []), ...(user.tools || []), user.headline || '', ...(user.experience || [])]))
+  return { exact, soft }
+}
+
+export function oppScore(user: any, opp: any): number {
+  const { exact, soft } = oppParts(user, opp)
   return Math.min(1, exact * 0.65 + soft * 0.35)
 }
 
