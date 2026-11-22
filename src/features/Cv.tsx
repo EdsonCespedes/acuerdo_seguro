@@ -4,7 +4,9 @@ import { useCollection, useRecord, upsert, remove } from '../lib/db'
 import { useUi } from '../store/ui'
 import { emit } from '../store/tour'
 import { Btn, Section, Tag, Empty, Tabs } from '../design-system/ui'
-import { uid, nowIso, ME, fmtDay } from '../lib/util'
+import { uid, nowIso, ME, CO, fmtDay, shortTitle } from '../lib/util'
+import { usePre } from '../store/pre'
+import { PreBtn } from './Preseleccion'
 import { askAi, aiReady } from '../lib/ai'
 import { CV_SYSTEM, cvPrompt, cvLocal } from '../lib/cv'
 import { useTab } from './common'
@@ -13,7 +15,7 @@ const copy = (t: string, toast: (m: string) => void) => { navigator.clipboard?.w
 
 function Generar() {
   const me = useRecord('users', ME)
-  const ev = useCollection('evidence')
+  const ev = useCollection('evidence').filter((e) => e.user_id === ME)
   const opps = useCollection('opportunities')
   const users = useCollection('users')
   const toast = useUi((s) => s.toast)
@@ -36,7 +38,7 @@ function Generar() {
     setText(out); setBusy(false); emit('cv')
   }
   const save = () => {
-    upsert('cvs', { id: uid('cv'), title: opp ? `CV para ${opp.title}` : 'CV general', text, createdAt: nowIso() })
+    upsert('cvs', { id: uid('cv'), user_id: ME, title: opp ? `CV para ${opp.title}` : 'CV general', text, createdAt: nowIso() })
     setSaved(true); toast('CV guardado')
   }
   return (
@@ -64,7 +66,7 @@ function Generar() {
 }
 
 function Mis() {
-  const cvs = useCollection('cvs')
+  const cvs = useCollection('cvs').filter((c) => c.user_id === ME)
   const toast = useUi((s) => s.toast)
   const [open, setOpen] = useState<string | null>(null)
   if (!cvs.length) return <Empty>Aún no guardaste ningún CV.</Empty>
@@ -85,10 +87,30 @@ function Mis() {
   )
 }
 
+function Preseleccion() {
+  const opps = useCollection('opportunities').filter((o) => o.company_id === CO)
+  const apps = useCollection('applications')
+  const runs = usePre((s) => s.runs)
+  if (!opps.length) return <Empty>Aún no publicaste ofertas.</Empty>
+  return (
+    <Section title="Tus convocatorias">
+      {opps.map((o) => {
+        const n = apps.filter((a) => a.opportunity_id === o.id).length
+        return (
+          <div className="item" key={o.id}>
+            <div className="item-top"><b>{shortTitle(o.title, 34)}</b>{runs[o.id] ? <Tag tone="ok">Analizada</Tag> : <Tag>{n} postulante{n === 1 ? '' : 's'}</Tag>}</div>
+            <div className="actions"><PreBtn oppId={o.id} open /></div>
+          </div>
+        )
+      })}
+    </Section>
+  )
+}
+
 export default function Cv() {
   const role = useUi((s) => s.role)
   const [tab, setTab] = useTab('cv', 'generar')
-  if (role !== 'worker') return <Empty>El CV es solo para trabajadores. Cambia de rol arriba.</Empty>
+  if (role === 'company') return <><Tabs items={[{ id: 'pre', label: 'Preselección' }]} value="pre" onChange={() => {}} /><Preseleccion /></>
   return (
     <>
       <Tabs items={[{ id: 'generar', label: 'Generar' }, { id: 'mis', label: 'Mis CV' }]} value={tab} onChange={setTab} />

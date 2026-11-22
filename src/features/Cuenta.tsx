@@ -3,20 +3,27 @@ import { upsert, useCollection, useRecord, resetData } from '../lib/db'
 import { useUi } from '../store/ui'
 import { Btn, Row, Section, Tag, Tabs } from '../design-system/ui'
 import { ME, CO, ROLE_LABEL, fmtDate, nowIso } from '../lib/util'
+import { useAuth } from '../store/auth'
+import { LogOut } from 'lucide-react'
 import { useTab } from './common'
 
 function Datos() {
   const role = useUi((s) => s.role)
-  const toast = useUi((s) => s.toast)
   const u = useRecord('users', role === 'worker' ? ME : CO)
+  const acc = useCollection('accounts').find((a) => a.user_id === u?.id)
+  const logout = useAuth((s) => s.logout)
   if (!u) return null
   return (
     <>
       <Row label="Nombre">{u.name}</Row>
+      <Row label="Usuario">{acc?.username}</Row>
       <Row label="Tipo de cuenta"><Tag tone="cyan">{ROLE_LABEL[role]}</Tag></Row>
       <Row label="Ciudad">{u.city}</Row>
       <Row label="Miembro desde">{fmtDate(u.since + 'T12:00:00-04:00')}</Row>
-      <div className="actions"><Btn kind="danger" onClick={() => { resetData(); toast('Datos restablecidos') }}><RotateCcw size={16} /> Restablecer datos</Btn></div>
+      <div className="actions">
+        <Btn onClick={logout}><LogOut size={16} /> Cerrar sesión</Btn>
+        <Btn kind="danger" onClick={() => { resetData(); logout() }}><RotateCcw size={16} /> Restablecer datos</Btn>
+      </div>
     </>
   )
 }

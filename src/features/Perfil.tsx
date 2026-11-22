@@ -36,6 +36,8 @@ function Datos() {
       <label className="fld">{role === 'worker' ? 'Nombre' : 'Nombre comercial'}<input value={cur.name || ''} onChange={(e) => set('name', e.target.value)} /></label>
       {role === 'worker' ? (<>
         <label className="fld">Titular<input value={cur.headline || ''} onChange={(e) => set('headline', e.target.value)} /></label>
+        <label className="fld">Ciudad<select value={cur.city || 'Cochabamba'} onChange={(e) => set('city', e.target.value)}>{['Cochabamba', 'Sacaba', 'Quillacollo', 'Tiquipaya', 'Vinto'].map((c) => <option key={c}>{c}</option>)}</select></label>
+        <label className="fld">Género<select value={cur.gender || ''} onChange={(e) => set('gender', e.target.value)}><option value="mujer">Mujer</option><option value="varón">Varón</option><option value="">Prefiero no indicar</option></select></label>
         <label className="fld">Habilidades (separadas por coma)<input value={cur.skills_txt} onChange={(e) => set('skills_txt', e.target.value)} /></label>
         <label className="fld">Herramientas<input value={cur.tools_txt} onChange={(e) => set('tools_txt', e.target.value)} /></label>
         <label className="fld">Experiencia (una por línea)<textarea rows={3} value={cur.exp_txt} onChange={(e) => set('exp_txt', e.target.value)} /></label>
@@ -54,13 +56,13 @@ function Datos() {
 }
 
 function Portafolio() {
-  const items = useCollection('evidence')
+  const items = useCollection('evidence').filter((e) => e.user_id === ME)
   const toast = useUi((s) => s.toast)
   const [t, setT] = useState(''); const [u, setU] = useState(''); const [k, setK] = useState('Diseño'); const [err, setErr] = useState('')
   const add = () => {
     if (!t.trim()) return setErr('Ponle un título.')
     if (u && !/^https?:\/\//i.test(u)) return setErr('El enlace debe empezar con https://')
-    setErr(''); upsert('evidence', { id: uid('ev'), title: t.trim(), url: u.trim(), kind: k, createdAt: nowIso() })
+    setErr(''); upsert('evidence', { id: uid('ev'), user_id: ME, title: t.trim(), url: u.trim(), kind: k, createdAt: nowIso() })
     setT(''); setU(''); toast('Trabajo agregado'); emit('evidence')
   }
   return (
@@ -89,7 +91,7 @@ function Trayectoria() {
   const ids = new Set(ags.map((a) => a.id))
   const dels = useCollection('deliverables').filter((d) => ids.has(d.agreement_id))
   const pays = useCollection('payments').filter((p) => ids.has(p.agreement_id))
-  const ev = useCollection('evidence')
+  const ev = useCollection('evidence').filter((e) => e.user_id === ME)
   const apps = useCollection('applications').filter((a) => a.worker_id === ME)
   const ok = dels.filter((d) => d.state === 'aprobado').length
   const conf = pays.filter((p) => p.state === 'confirmado_receptor').length

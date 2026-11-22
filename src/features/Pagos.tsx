@@ -1,20 +1,21 @@
 import { upsert, useCollection } from '../lib/db'
 import { useUi } from '../store/ui'
 import { emit } from '../store/tour'
-import { Btn, Row, Section, Tag, Tabs } from '../design-system/ui'
+import { Btn, Row, Section, Tag, Tabs, Empty } from '../design-system/ui'
 import { fmtBs, fmtDay, nowIso } from '../lib/util'
 import { latest, isBilateral, effectiveState, canPay, reconcile, PayState } from '../lib/rules'
-import { AgPicker, useAg, useTab } from './common'
+import { AgPicker, useAg, useAgNames, useTab } from './common'
 
 const PAY_LABEL: Record<string, string> = { programado: 'Programado', pendiente: 'Pendiente', vencido: 'Vencido', reportado_pagador: 'Pago reportado', confirmado_receptor: 'Confirmado', verificado_proveedor: 'Verificado', en_controversia: 'En disputa' }
 
 function Resumen() {
-  const ag = useAg(); const v = latest(ag)
+  const ag = useAg(); const v = latest(ag); const names = useAgNames()
   const pays = useCollection('payments').filter((p) => p.agreement_id === ag.id)
   const rec = reconcile(v.total_cents, pays)
   const sumBy = (s: string) => pays.filter((p) => effectiveState(p) === s).reduce((a, p) => a + p.amount_cents, 0)
   return (
     <>
+      <Row label={names.role === 'company' ? 'Pagas a' : 'Te paga'}><b>{names.other(ag)}</b></Row>
       <Row label="Total del acuerdo"><b className="num">{fmtBs(v.total_cents)}</b></Row>
       <Row label="Pagos suman el total">{rec.ok ? <Tag tone="ok">Sí</Tag> : <Tag tone="err">Diferencia {fmtBs(rec.diff)}</Tag>}</Row>
       <Row label="Confirmado"><span className="num">{fmtBs(sumBy('confirmado_receptor'))}</span></Row>
@@ -56,6 +57,8 @@ function Lista() {
 
 export default function Pagos() {
   const [tab, setTab] = useTab('pagos', 'resumen')
+  const ag = useAg()
+  if (!ag) return <Empty>Aún no tienes acuerdos.</Empty>
   return (
     <>
       <AgPicker />

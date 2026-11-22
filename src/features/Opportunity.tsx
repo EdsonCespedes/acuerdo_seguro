@@ -1,10 +1,11 @@
 import { Bookmark, BookmarkCheck, Send } from 'lucide-react'
 import branches from '../data/branches.json'
-import { useCollection, useRecord, upsert } from '../lib/db'
+import { useCollection, useRecord } from '../lib/db'
 import { useUi } from '../store/ui'
 import { Btn, Row, Section, Tag, Empty } from '../design-system/ui'
 import { fmtBs, fmtDay, leftLabel, ME } from '../lib/util'
-import { applyTo, toggleSave, acceptApplication } from './actions'
+import { applyTo, toggleSave } from './actions'
+import { Candidatos } from './Preseleccion'
 
 export default function Opportunity({ id }: { id: string }) {
   const o = useRecord('opportunities', id)
@@ -41,20 +42,7 @@ export default function Opportunity({ id }: { id: string }) {
           <Btn onClick={() => toggleSave(id)}>{saved ? <BookmarkCheck size={16} /> : <Bookmark size={16} />} {saved ? 'Guardada' : 'Guardar'}</Btn>
         </div>
       )}
-      {role === 'company' && (
-        <Section title={`Postulaciones (${apps.length})`}>
-          {apps.length ? apps.map((a) => {
-            const w = users.find((u) => u.id === a.worker_id)
-            return (
-              <div className="item" key={a.id}>
-                <div className="item-top"><b>{w?.name}</b><Tag tone={a.status === 'preseleccionada' || a.status === 'aceptada' ? 'ok' : 'neutral'}>{a.status}</Tag></div>
-                <small className="fine">{w?.headline}</small>
-                {a.status !== 'aceptada' && <div className="actions">{a.status !== 'preseleccionada' && <Btn onClick={() => upsert('applications', { ...a, status: 'preseleccionada' })}>Preseleccionar</Btn>}<Btn kind="primary" onClick={() => acceptApplication(a.id)}>Aceptar y conectar</Btn></div>}
-              </div>
-            )
-          }) : <Empty>Aún no hay postulaciones.</Empty>}
-        </Section>
-      )}
+      {role === 'company' && <Candidatos opp={o} />}
     </>
   )
 }

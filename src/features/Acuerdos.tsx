@@ -7,14 +7,14 @@ import { emit } from '../store/tour'
 import { Btn, Row, Section, Tag, Empty, Tabs, dur } from '../design-system/ui'
 import { fmtBs, fmtDate, fmtDateTime, nowIso } from '../lib/util'
 import { latest, semaforo, balance, newVersion, acceptVersion, isBilateral, canDeliver, DelState } from '../lib/rules'
-import { AgPicker, useAg, useTab } from './common'
+import { AgPicker, useAg, useAgNames, useMyAgs, useTab } from './common'
 
 export const DEL_LABEL: Record<string, string> = { pendiente: 'Pendiente', entregado: 'Entregado', en_revision: 'En revisión', cambios_solicitados: 'Cambios pedidos', aprobado: 'Aprobado' }
 const partyOf = (role: string) => (role === 'company' ? 'company' : 'worker')
 const SEM = { rojo: 'Falta: ', amarillo: 'Conviene agregar: ', verde: 'Acuerdo completo' }
 
 function Detalle() {
-  const ag = useAg(); const v = latest(ag); const sem = semaforo(v)
+  const ag = useAg(); const v = latest(ag); const sem = semaforo(v); const names = useAgNames()
   const role = useUi((s) => s.role); const toast = useUi((s) => s.toast)
   const party = partyOf(role)
   const [edit, setEdit] = useState<{ total: string; advance: string; days: string } | null>(null)
@@ -31,7 +31,8 @@ function Detalle() {
   }
   return (
     <motion.div key={ag.id} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: dur.base }}>
-      <h3 className="h-ag">{ag.title}</h3>
+      <h3 className="h-ag">{names.title(ag)}</h3>
+      {names.opp(ag) && <small className="fine">{names.opp(ag)}</small>}
       <div className={'light light-' + sem.level} role="status">
         <i className="dot" />
         <div><b>{sem.level === 'verde' ? SEM.verde : SEM[sem.level] + (sem.level === 'rojo' ? sem.red : sem.yellow).join(', ')}</b></div>
@@ -44,7 +45,7 @@ function Detalle() {
       <Row label="Plazo"><span className="num">{v.days} días</span></Row>
       <Row label="Revisiones">{v.revisions ?? '—'}</Row>
       <Row label="Aceptación">
-        <Tag tone={v.acceptedBy.includes('company') ? 'ok' : 'neutral'}>Empresa</Tag> <Tag tone={v.acceptedBy.includes('worker') ? 'ok' : 'neutral'}>Trabajador</Tag>
+        <Tag tone={v.acceptedBy.includes('company') ? 'ok' : 'neutral'}>{names.side('company', ag)}</Tag> <Tag tone={v.acceptedBy.includes('worker') ? 'ok' : 'neutral'}>{names.side('worker', ag)}</Tag>
       </Row>
       {isBilateral(v) && <p className="ok-line"><Check size={16} /> Aceptada por ambas partes</p>}
       {closed ? <p className="fine">Acuerdo cerrado.</p> : edit ? (
@@ -90,11 +91,11 @@ function Entregables() {
 }
 
 function Versiones() {
-  const ag = useAg()
+  const ag = useAg(); const names = useAgNames()
   return (
     <>
       {ag.versions.slice().reverse().map((x: any) => (
-        <Row key={x.v} label={`v${x.v} · ${fmtDate(x.createdAt)}`}>{fmtBs(x.total_cents)} · {x.days} días · {x.acceptedBy.length ? 'aceptada por ' + x.acceptedBy.map((p: string) => (p === 'company' ? 'empresa' : 'trabajador')).join(' y ') : 'sin aceptar'}</Row>
+        <Row key={x.v} label={`v${x.v} · ${fmtDate(x.createdAt)}`}>{fmtBs(x.total_cents)} · {x.days} días · {x.acceptedBy.length ? 'aceptada por ' + x.acceptedBy.map((p: string) => names.side(p as any, ag)).join(' y ') : 'sin aceptar'}</Row>
       ))}
     </>
   )
@@ -102,7 +103,7 @@ function Versiones() {
 
 export default function Acuerdos() {
   const [tab, setTab] = useTab('acuerdos', 'acuerdo')
-  const ags = useCollection('agreements')
+  const ags = useMyAgs()
   if (!ags.length) return <Empty>Aún no tienes acuerdos.</Empty>
   return (
     <>

@@ -1,8 +1,9 @@
-import { useCollection, upsert, remove } from '../lib/db'
+import { useCollection } from '../lib/db'
 import { useUi } from '../store/ui'
 import { Btn, Tag, Empty, Tabs } from '../design-system/ui'
-import { fmtBs, fmtDay, ME } from '../lib/util'
-import { pickOpp, toggleSave, acceptApplication, simulateAccept } from './actions'
+import { fmtBs, fmtDay, ME, CO, shortTitle } from '../lib/util'
+import { pickOpp, toggleSave, simulateAccept } from './actions'
+import { Candidatos } from './Preseleccion'
 import { useTab } from './common'
 
 const tone = (s: string) => (s === 'preseleccionada' || s === 'aceptada' ? 'ok' : s === 'en revisión' ? 'cyan' : 'neutral') as 'ok' | 'cyan' | 'neutral'
@@ -33,7 +34,7 @@ function Enviadas() {
 }
 
 function Guardadas() {
-  const saved = useCollection('saved')
+  const saved = useCollection('saved').filter((s) => s.user_id === ME)
   const opps = useCollection('opportunities'); const users = useCollection('users')
   if (!saved.length) return <Empty>No guardaste convocatorias.</Empty>
   return (
@@ -57,22 +58,10 @@ function Guardadas() {
 
 function Recibidas() {
   const apps = useCollection('applications')
-  const opps = useCollection('opportunities'); const users = useCollection('users')
-  return (
-    <>
-      {apps.slice().reverse().map((a) => {
-        const o = opps.find((x) => x.id === a.opportunity_id); const w = users.find((u) => u.id === a.worker_id)
-        if (!o || !w) return null
-        return (
-          <div className="item" key={a.id}>
-            <div className="item-top"><b>{w.name}</b><Tag tone={tone(a.status)}>{a.status}</Tag></div>
-            <small className="fine">{o.title} · {users.find((u) => u.id === o.company_id)?.name}</small>
-            {a.status !== 'aceptada' && <div className="actions">{a.status !== 'preseleccionada' && <Btn onClick={() => upsert('applications', { ...a, status: 'preseleccionada' })}>Preseleccionar</Btn>}<Btn kind="primary" onClick={() => acceptApplication(a.id)}>Aceptar y conectar</Btn></div>}
-          </div>
-        )
-      })}
-    </>
-  )
+  const opps = useCollection('opportunities').filter((o) => o.company_id === CO)
+  const groups = opps.map((o) => ({ o, n: apps.filter((a) => a.opportunity_id === o.id).length })).filter((g) => g.n > 0)
+  if (!groups.length) return <Empty>Aún no recibiste postulaciones.</Empty>
+  return <>{groups.map(({ o, n }) => <Candidatos key={o.id} opp={o} title={`${shortTitle(o.title, 30)} (${n})`} />)}</>
 }
 
 export default function Postulaciones() {
