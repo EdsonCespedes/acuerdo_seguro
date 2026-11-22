@@ -20,7 +20,7 @@ describe('cercanía', () => {
   })
   it('personas por publicación, ordenadas y sobre el mínimo', () => {
     const mine = A.filter((o) => o.company_id === 'u_c01')
-    expect(mine.length).toBe(5)
+    expect(mine.length).toBe(8)
     for (const g of peopleByPost(mine, users as any[])) {
       expect(g.people.length).toBeGreaterThan(0)
       for (let i = 0; i < g.people.length; i++) { expect(g.people[i].score).toBeGreaterThanOrEqual(MIN_NEAR); if (i) expect(g.people[i - 1].score).toBeGreaterThanOrEqual(g.people[i].score) }
