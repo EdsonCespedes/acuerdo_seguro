@@ -21,6 +21,7 @@ export const palette = {
   green: '#1F9D6B',
   red: '#D6455D',
   amber: '#F5A524',
+  neon: '#F4FF3B',
 }
 
 // roles below use palette colors
@@ -72,7 +73,7 @@ const scene = {
   coreNucleus: p.blue500,
   coreInner: p.blue600,
   coreRim: p.cyan400,
-  label: p.white,
+  label: p.neon,
   wire: p.blue400,
   ring: p.cyan400,
   electron: p.cyan200,
@@ -86,7 +87,7 @@ const scene = {
   nodeRing: p.cyan400,
   nodeActive: p.white,
   mote: p.blue400,
-  linkOk: p.cyan400,
+  linkOk: p.neon,
   linkWait: p.slate400,
   sent: p.amber,
   person: p.cyan200,

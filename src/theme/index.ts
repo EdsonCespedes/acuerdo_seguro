@@ -12,7 +12,7 @@ export function themeCss(t: Theme = theme): string {
   const { ok, err, warn, onWarn } = t.status
   return (
     `:root{${decl(t.dark)}--accent-soft:${soft};` +
-    `${decl({ ok, err, warn, onWarn, shadow: t.shadow, lightBg: t.light.bg, lightText: t.light.text })}color-scheme:dark}` +
+    `${decl({ ok, err, warn, onWarn, shadow: t.shadow, neon: t.scene.linkOk, lightBg: t.light.bg, lightText: t.light.text })}color-scheme:dark}` +
     `.sheet{${decl(t.light)}--accent-soft:${soft};color-scheme:light}`
   )
 }
