@@ -8,7 +8,7 @@ import { scene } from '../theme'
 
 const LOW = isLowEnd(), SEG = LOW ? 28 : 40, RAD = LOW ? 4 : 5
 export const toCurve = (pts: Vec3[]) => new THREE.CatmullRomCurve3(pts.map((p) => new THREE.Vector3(...p)), false, 'catmullrom', 0.5)
-export function Tube({ curve, color = scene.line, r0, r1, active = false, dim = false, opacity = 0.55 }: { curve: THREE.CatmullRomCurve3; color?: string; r0: number; r1: number; active?: boolean; dim?: boolean; opacity?: number }) {
+export function Tube({ curve, color = scene.line, r0, r1, active = false, dim = false, opacity = 0.55, tint }: { curve: THREE.CatmullRomCurve3; tint?: string; color?: string; r0: number; r1: number; active?: boolean; dim?: boolean; opacity?: number }) {
   const geo = useMemo(() => taperedTube(curve, r0, r1, SEG, RAD), [curve, r0, r1])
   const glow = useMemo(() => (active ? taperedTube(curve, r0 * 4, r1 * 4, SEG, 6) : null), [curve, r0, r1, active])
   useEffect(() => () => geo.dispose(), [geo])
@@ -16,11 +16,11 @@ export function Tube({ curve, color = scene.line, r0, r1, active = false, dim = 
   return (
     <>
       <mesh geometry={geo}>
-        <meshBasicMaterial color={active ? scene.lineActive : color} transparent opacity={active ? 1 : dim ? 0.12 : opacity} depthWrite={false} />
+        <meshBasicMaterial color={active ? (tint ?? scene.lineActive) : color} transparent opacity={active ? 1 : dim ? 0.12 : opacity} depthWrite={false} />
       </mesh>
       {glow && (
         <mesh geometry={glow}>
-          <meshBasicMaterial color={scene.lineActive} transparent opacity={0.16} blending={THREE.AdditiveBlending} depthWrite={false} />
+          <meshBasicMaterial color={tint ?? scene.lineActive} transparent opacity={0.16} blending={THREE.AdditiveBlending} depthWrite={false} />
         </mesh>
       )}
     </>

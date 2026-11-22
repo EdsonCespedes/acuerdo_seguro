@@ -10,7 +10,10 @@ function makeLabel() {
   const x = c.getContext('2d')!
   x.font = '800 104px "Nunito Variable", Nunito, system-ui, sans-serif'
   x.textAlign = 'center'; x.textBaseline = 'middle'
-  x.fillStyle = scene.label; x.fillText('A.S', 128, 136)
+  x.fillStyle = scene.label; x.shadowColor = scene.label
+  x.shadowBlur = 22; x.globalAlpha = 0.5; x.fillText('A.S.', 128, 136)
+  x.shadowBlur = 8; x.globalAlpha = 0.45; x.fillText('A.S.', 128, 136)
+  x.shadowBlur = 0; x.globalAlpha = 1; x.fillText('A.S.', 128, 136)
   const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t
 }
 const VERT = `

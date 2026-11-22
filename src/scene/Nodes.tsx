@@ -45,7 +45,7 @@ function Node({ id, pos, label, sub, desc, color, index, active, dim, scale = 1,
   useFrame((state, dt) => {
     const grp = g.current
     if (!grp) return
-    if (!show && !grp.visible) { rank.delete(id); return } // oculto y quieto: costo cero
+    if (!show && !grp.visible) { rank.delete(id); return }
     const reduced = useUi.getState().reduced
     const t = state.clock.elapsedTime
     grp.position.lerp(goal.set(pos[0], pos[1], pos[2]), reduced ? 1 : 0.07)

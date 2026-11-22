@@ -13,7 +13,7 @@ import { MODULE_POS, dendritePoints, offersView } from '../lib/layout'
 import { computeWorld } from '../lib/world'
 import { pct } from '../lib/match'
 import { oppMatches } from '../lib/filters'
-import { rng, isLowEnd, fmtBs, shortOf, shortTitle, ME, CO, Vec3 } from '../lib/util'
+import { rng, isLowEnd, fmtBs, shortOf, shortTitle, modLabel, modShort, modulesFor, ME, CO, Vec3 } from '../lib/util'
 import { useLabels, rank, reach } from './labels'
 import { pickOpp, pressCore, quickApply } from '../features/actions'
 import { scene } from '../theme'
@@ -84,7 +84,8 @@ function World() {
   const users = useCollection('users')
   const apps = useCollection('applications')
   const world = useMemo(() => computeWorld(role, lens), [role, lens, opps.length, users.length])
-  const modCurves = useMemo(() => modules.map((m) => ({ id: m.id, curve: toCurve(dendritePoints(m.id, MODULE_POS[m.id])) })), [])
+  const mods = useMemo(() => modulesFor(modules, role), [role])
+  const modCurves = useMemo(() => mods.map((m) => ({ id: m.id, curve: toCurve(dendritePoints(m.id, MODULE_POS[m.id])) })), [mods])
   const modIdx = sel?.kind === 'module' ? modCurves.findIndex((m) => m.id === sel.id) : -1
   const color = (b: string) => scene.branch[b] ?? scene.line
   const names = useMemo(() => new Map<string, string>(users.map((u) => [u.id, shortTitle(u.name, 16)])), [users])
@@ -122,23 +123,23 @@ function World() {
       <Motes />
       <LabelBudget max={isLowEnd() ? 6 : 9} />
       <Soma onSelect={pressCore} />
-      <CoreHint zone={zone} />
+      {role !== 'company' && <CoreHint zone={zone} />}
 
       {zone === 'modules' && (
         <>
           {modCurves.map(({ id, curve }) => <Tube key={id} curve={curve} r0={0.035} r1={0.022} active={sel?.kind === 'module' && sel.id === id} />)}
           <Pulses curves={modCurves.map((c) => c.curve)} active={modIdx} speed={0.13} />
-          {modules.map((m, i) => (
-            <Node key={m.id} id={m.id} pos={MODULE_POS[m.id]} label={shortTitle(m.label, 14)} sub={shortTitle(m.short, 26)} color={m.color} index={i}
+          {mods.map((m, i) => (
+            <Node key={m.id} id={m.id} pos={MODULE_POS[m.id]} label={shortTitle(modLabel(m, role), 14)} sub={shortTitle(modShort(m, role), 26)} color={m.color} index={i}
               active={sel?.kind === 'module' && sel.id === m.id} onSelect={onModule} always />
           ))}
         </>
       )}
 
       {links.map((l) => l.state === 'ok'
-        ? <Tube key={l.key} curve={l.curve} r0={0.05} r1={0.035} active />
+        ? <Tube key={l.key} curve={l.curve} r0={0.05} r1={0.035} active tint={scene.linkOk} />
         : <Tube key={l.key} curve={l.curve} color={l.state === 'wait' ? scene.linkWait : scene.line} r0={0.018} r1={0.012} opacity={l.state === 'wait' ? 0.4 : 0.16} />)}
-      {okCurves.length > 0 && <Pulses curves={okCurves} speed={0.22} size={0.08} />}
+      {okCurves.length > 0 && <Pulses curves={okCurves} speed={0.22} size={0.08} color={scene.linkOk} />}
 
       {opps.map((o, i) => {
         const hit = oppMatches(o, query, branchF)
