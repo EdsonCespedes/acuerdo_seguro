@@ -16,6 +16,7 @@ type S = {
   reduced: boolean; flight: Flight; query: string; branch: string | null; toasts: Toast[]
   tabs: Record<string, string>; ag: string; lens: Lens; applyMode: boolean
   setRole: (r: Role, silent?: boolean) => void
+  resetForUser: (r: Role) => void
   selectModule: (id: string, tab?: string) => void
   selectOpp: (id: string) => void
   selectEntity: (kind: 'company' | 'person', id: string) => void
@@ -38,6 +39,7 @@ export const useUi = create<S>((set, get_) => ({
   role: 'worker', selected: null, view: 'scene', zone: 'offers', reduced: prefersReduced(), flight: null, query: '', branch: null, toasts: [],
   tabs: {}, ag: 'agr_1', lens: 'opps', applyMode: false,
   setRole: (role, silent) => { set({ role, lens: 'opps', applyMode: false }); if (!silent) get_().toast(role === 'worker' ? 'Ahora eres trabajador' : 'Ahora eres empresa') },
+  resetForUser: (role) => set({ role, selected: null, zone: 'offers', flight: null, query: '', branch: null, lens: 'opps', applyMode: false, view: 'scene', tabs: {}, ag: '' }),
   selectModule: (id, tab) => {
     const p = MODULE_POS[id]
     set((s) => ({
